@@ -6,10 +6,55 @@
 <body>
 <div th:insert="navbar :: navbar"></div>
 
-<div>
-    <input type="button" id="btn1" value="Button1" onclick="myFunction()">
-    <input type="button" id="btn2" value="Button2">
-</div>
+<section id="first-div" class="jumbotron jumbotron-fluid align-content-center">
+    <div class="container-fluid text-center">
+        <div class="container">
+            <div class="row justify-content-start" id="first-div-first">
+                <div class="col">
+                    <img src="/images/logoalt3.png" width="400" height="200"/>
+                </div>
+                <div class="col text-left">
+                    <h1 class="display-4">GTU Rover</h1>
+                    <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container" style="margin-bottom: 25px">
+            <div class="row text-center justify-content-center">
+                <div class="col">
+                    <img src="/images/hexa1.png"/>
+                    <h3>Üyeler</h3>
+                </div>
+                <div class="col">
+                    <img src="/images/hexa1.png"/>
+                    <h3>Üyeler</h3>
+                </div>
+                <div class="col">
+                    <img src="/images/hexa1.png"/>
+                    <h3>Üyeler</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row text-center justify-content-center">
+                <div class="col">
+                    <img src="/images/hexa1.png"/>
+                    <h3>Üyeler</h3>
+                </div>
+                <div class="col">
+                    <img src="/images/hexa1.png"/>
+                    <h3>Üyeler</h3>
+                </div>
+                <div class="col">
+                    <img src="/images/hexa1.png"/>
+                    <h3>Üyeler</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 <div th:insert="footer :: myfooter"></div>
 </body>

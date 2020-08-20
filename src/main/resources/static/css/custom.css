@@ -1,0 +1,12 @@
+#first-div{
+    background: url(/images/backg3.jpg) center center / cover no-repeat;
+    height: 725px;
+    color: white;
+    margin-bottom: 50px;
+}
+#first-div-first{
+    margin-bottom: 70px;
+}
+.h3-first-div{
+    margin-left: 5px;
+}
