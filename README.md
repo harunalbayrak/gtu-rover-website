@@ -2,8 +2,15 @@
 Projeyi çalıştırmak için maven yüklü olması gerekmektedir.
 
 Maven nasıl kurulur
+
+Windows
 ```
-https://mkyong.com/maven/how-to-install-maven-in-windows/](https://mkyong.com/maven/how-to-install-maven-in-windows/
+https://mkyong.com/maven/how-to-install-maven-in-windows/
+```
+
+Linux
+```
+https://www.javahelps.com/2017/10/install-apache-maven-on-linux.html
 ```
 
 Maven'i kurduktan sonra projeyi çalıştırmak için terminalden
