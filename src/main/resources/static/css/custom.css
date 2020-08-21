@@ -1,5 +1,5 @@
 #first-div{
-    background: url(/images/backg3.jpg) center center / cover no-repeat;
+    background: url(/images/back7.jpg) center center / cover no-repeat;
     height: 725px;
     color: white;
     margin-bottom: 50px;
@@ -7,6 +7,16 @@
 #first-div-first{
     margin-bottom: 70px;
 }
+#second-div{
+    background: url(/images/back4.jpg) center center / cover no-repeat;
+    height: 700px;
+    color: white;
+    margin-bottom: 50px;
+}
 .h3-first-div{
-    margin-left: 5px;
+    color: hotpink;
+    font-weight: normal;
+}
+.h3-first-div-2{
+    font-weight: normal;
 }
