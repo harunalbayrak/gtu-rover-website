@@ -98,6 +98,9 @@ body{
         font-size: 24px;
         text-align: center;
     }
+    .col-last-div{
+        text-align: center;
+    }
     .p-second-div{
         font-size: 14px;
         text-align: center;
@@ -111,6 +114,9 @@ body{
         padding-right: 0 !important;
     }
     #third-div{
+        height: auto;
+    }
+    #last-div{
         height: auto;
     }
     .first-div-icon{
@@ -146,6 +152,9 @@ body{
         font-size: 30px;
         text-align: center;
     }
+    .col-last-div{
+        text-align: center;
+    }
     .p-second-div{
         font-size: 15px;
         text-align: center;
@@ -162,6 +171,9 @@ body{
         height: auto;
     }
     #third-div{
+        height: auto;
+    }
+    #last-div{
         height: auto;
     }
     .first-div-icon{
@@ -197,6 +209,9 @@ body{
         font-size: 30px;
         text-align: center;
     }
+    .col-last-div{
+        text-align: center;
+    }
     .p-second-div{
         font-size: 15px;
         text-align: center;
@@ -213,6 +228,9 @@ body{
         height: auto;
     }
     #third-div{
+        height: auto;
+    }
+    #last-div{
         height: auto;
     }
     .first-div-icon{
@@ -234,6 +252,9 @@ body{
     #third-div{
         height: auto;
     }
+    #last-div{
+        height: auto;
+    }
     .first-div-icon{
         width: 30%;
     }
@@ -251,6 +272,9 @@ body{
         height: auto;
     }
     #third-div{
+        height: auto;
+    }
+    #last-div{
         height: auto;
     }
     .first-div-icon{
