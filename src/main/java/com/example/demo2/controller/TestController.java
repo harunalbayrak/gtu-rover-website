@@ -10,7 +10,9 @@ import java.util.List;
 public class TestController {
     @GetMapping("/")
     public String start(Model model){
-        model.addAttribute("message","Hello World");
+        Deneme deneme = new Deneme(3);
+        List<InstagramPhoto> instagramPhotos = deneme.getInstagramPhotos();
+        model.addAttribute("instagramPhotos",instagramPhotos);
         return "index";
     }
 

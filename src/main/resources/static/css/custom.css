@@ -1,3 +1,6 @@
+body{
+    font-family: 'Titillium Web', sans-serif !important;
+}
 #first-div{
     background: url(/images/back7.jpg) center center / cover no-repeat;
     height: 725px;
@@ -9,9 +12,32 @@
 }
 #second-div{
     background: url(/images/back4.jpg) center center / cover no-repeat;
-    height: 700px;
+    height: auto;
     color: white;
     margin-bottom: 50px;
+}
+#third-div{
+    background: url(/images/back5.jpg) center center / cover no-repeat;
+    height: 1000px;
+    color: white;
+    margin-bottom: 50px;
+}
+#last-div{
+    background: url(/images/back3.jpg) center -300px / cover no-repeat;
+    height: 1000px;
+    color: white;
+    margin-bottom: 50px;
+}
+.container-last-div{
+    margin-top: 70px;
+    border-top: 7px solid #9767dd;
+    border-left: 4px solid #2c264a;
+    border-right: 4px solid #2d274d;
+    border-bottom: 2px solid #9867dd;
+    background-color: rgba(70, 63, 107, 0.33)
+}
+.mycol{
+    margin-bottom: 20px;
 }
 .h3-first-div{
     color: hotpink;
@@ -19,4 +45,238 @@
 }
 .h3-first-div-2{
     font-weight: normal;
+    text-line-through: double;
 }
+.h1-second-div{
+    padding-right: 0;
+    overflow: hidden;
+}
+.h1-last-div{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+.h2-last-div{
+    color: rgb(198, 124, 222);
+}
+.p-second-div{
+    padding-right: 0;
+    overflow: hidden;
+}
+.p-last-div{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.row-second-div{
+    width: 101%;
+}
+@media (max-width: 575.98px) {
+    .row-second-div{
+        width: 103%;
+    }
+    #carousel1_indicator{
+        max-width: 300px !important;
+        max-height: 375px !important;
+        margin: 0 auto;
+    }
+    .img-first-div{
+        width: 250px;
+        height: 200px;
+        text-align: center;
+    }
+    .h1-first-div{
+        margin-top: 35px;
+        font-size: 35px !important;
+        text-align: center;
+    }
+    .p-first-div{
+        font-size: 20px !important;
+        text-align: center;
+    }
+    .h1-second-div{
+        margin-top: 35px;
+        font-size: 24px;
+        text-align: center;
+    }
+    .col-last-div{
+        text-align: center;
+    }
+    .p-second-div{
+        font-size: 14px;
+        text-align: center;
+        padding: 10px;
+    }
+    #first-div{
+        height: auto;
+    }
+    #second-div{
+        height: auto;
+        padding-right: 0 !important;
+    }
+    #third-div{
+        height: auto;
+    }
+    .first-div-icon{
+        width: 70px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .row-second-div{
+        width: 102%;
+    }
+    #carousel1_indicator{
+        max-width: 300px !important;
+        max-height: 375px !important;
+        margin: 0 auto;
+    }
+    .img-first-div{
+        width: 250px;
+        height: 200px;
+        text-align: center;
+    }
+    .h1-first-div{
+        margin-top: 35px;
+        font-size: 35px !important;
+        text-align: center;
+    }
+    .p-first-div{
+        font-size: 20px !important;
+        text-align: center;
+    }
+    .h1-second-div{
+        margin-top: 35px;
+        font-size: 30px;
+        text-align: center;
+    }
+    .col-last-div{
+        text-align: center;
+    }
+    .p-second-div{
+        font-size: 15px;
+        text-align: center;
+        padding: 10px;
+    }
+    #carousel1_indicator{
+        max-width: 300px;
+        max-height: 375px;
+    }
+    #first-div{
+        height: auto;
+    }
+    #second-div{
+        height: auto;
+    }
+    #third-div{
+        height: auto;
+    }
+    .first-div-icon{
+        width: 30%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .row-second-div{
+        width: 102%;
+    }
+    #carousel1_indicator{
+        max-width: 400px !important;
+        max-height: 500px !important;
+        margin: 0 auto;
+    }
+    .img-first-div{
+        width: 250px;
+        height: 200px;
+        text-align: center;
+    }
+    .h1-first-div{
+        margin-top: 35px;
+        font-size: 35px !important;
+        text-align: center;
+    }
+    .p-first-div{
+        font-size: 20px !important;
+        text-align: center;
+    }
+    .h1-second-div{
+        margin-top: 35px;
+        font-size: 30px;
+        text-align: center;
+    }
+    .col-last-div{
+        text-align: center;
+    }
+    .p-second-div{
+        font-size: 15px;
+        text-align: center;
+        padding: 10px;
+    }
+    #carousel1_indicator{
+        max-width: 400px;
+        max-height: 500px;
+    }
+    #first-div{
+        height: auto;
+    }
+    #second-div{
+        height: auto;
+    }
+    #third-div{
+        height: auto;
+    }
+    .first-div-icon{
+        width: 30%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    #carousel1_indicator{
+        max-width: 400px;
+        max-height: 500px;
+    }
+    #first-div{
+        height: auto;
+    }
+    #second-div{
+        height: auto;
+    }
+    #third-div{
+        height: auto;
+    }
+    .first-div-icon{
+        width: 30%;
+    }
+}
+
+@media (min-width: 1200px) {
+    #carousel1_indicator{
+        max-width: 400px;
+        max-height: 500px;
+    }
+    #first-div{
+        height: auto;
+    }
+    #second-div{
+        height: auto;
+    }
+    #third-div{
+        height: auto;
+    }
+    .first-div-icon{
+        width: 30%;
+    }
+}
+
+#carousel1_indicator{
+    max-width: 400px;
+    max-height: 500px;
+}
+.carousel-item{
+    max-width: 400px;
+    max-height: 500px;
+    background:#ccc;
+}
+
+.carousel-control-prev{
+}
+
