@@ -22,6 +22,20 @@ body{
     color: white;
     margin-bottom: 50px;
 }
+#last-div{
+    background: url(/images/back3.jpg) center -300px / cover no-repeat;
+    height: 1000px;
+    color: white;
+    margin-bottom: 50px;
+}
+.container-last-div{
+    margin-top: 70px;
+    border-top: 7px solid #9767dd;
+    border-left: 4px solid #2c264a;
+    border-right: 4px solid #2d274d;
+    border-bottom: 2px solid #9867dd;
+    background-color: rgba(70, 63, 107, 0.33)
+}
 .mycol{
     margin-bottom: 20px;
 }
@@ -37,9 +51,21 @@ body{
     padding-right: 0;
     overflow: hidden;
 }
+.h1-last-div{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+.h2-last-div{
+    color: rgb(198, 124, 222);
+}
 .p-second-div{
     padding-right: 0;
     overflow: hidden;
+}
+.p-last-div{
+    font-size: 18px;
+    margin-bottom: 10px;
 }
 .row-second-div{
     width: 101%;
