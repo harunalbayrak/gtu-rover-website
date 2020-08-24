@@ -23,8 +23,8 @@ body{
     margin-bottom: 50px;
 }
 #last-div{
-    background: url(/images/back3.jpg) center -300px / cover no-repeat;
-    height: 1000px;
+    background: url(/images/back3.jpg) center center / cover no-repeat;
+    height: 880px;
     color: white;
     margin-bottom: 50px;
 }
@@ -68,7 +68,9 @@ body{
     margin-bottom: 10px;
 }
 .row-second-div{
-    width: 101%;
+    margin-top: 55px;
+    margin-bottom: 55px;
+    width: 100.5%;
 }
 @media (max-width: 575.98px) {
     .row-second-div{
@@ -98,6 +100,15 @@ body{
         font-size: 24px;
         text-align: center;
     }
+    .h2-last-div{
+        text-align: center;
+    }
+    .p-last-div{
+        text-align: center;
+    }
+    .last-p{
+        margin-bottom: 45px !important;
+    }
     .col-last-div{
         text-align: center;
     }
@@ -115,6 +126,13 @@ body{
     }
     #third-div{
         height: auto;
+    }
+    #last-div{
+        background-position: center;
+        height: auto;
+    }
+    .last-div-container-fluid {
+        padding-bottom: 110px !important;
     }
     .first-div-icon{
         width: 70px;
@@ -149,6 +167,15 @@ body{
         font-size: 30px;
         text-align: center;
     }
+    .h2-last-div{
+        text-align: center;
+    }
+    .p-last-div{
+        text-align: center;
+    }
+    .last-p{
+        margin-bottom: 45px !important;
+    }
     .col-last-div{
         text-align: center;
     }
@@ -169,6 +196,13 @@ body{
     }
     #third-div{
         height: auto;
+    }
+    #last-div{
+        background-position: center;
+        height: auto;
+    }
+    .last-div-container-fluid {
+        padding-bottom: 110px !important;
     }
     .first-div-icon{
         width: 30%;
@@ -203,6 +237,15 @@ body{
         font-size: 30px;
         text-align: center;
     }
+    .h2-last-div{
+        text-align: center;
+    }
+    .p-last-div{
+        text-align: center;
+    }
+    .last-p{
+        margin-bottom: 45px !important;
+    }
     .col-last-div{
         text-align: center;
     }
@@ -224,6 +267,13 @@ body{
     #third-div{
         height: auto;
     }
+    #last-div{
+        background-position: center;
+        height: auto;
+    }
+    .last-div-container-fluid {
+        padding-bottom: 110px !important;
+    }
     .first-div-icon{
         width: 30%;
     }
@@ -243,6 +293,13 @@ body{
     #third-div{
         height: auto;
     }
+    #last-div{
+        background-position: center;
+        height: auto;
+    }
+    .last-div-container-fluid {
+        padding-bottom: 110px !important;
+    }
     .first-div-icon{
         width: 30%;
     }
@@ -261,6 +318,13 @@ body{
     }
     #third-div{
         height: auto;
+    }
+    #last-div{
+        background-position: center center;
+        height: auto;
+    }
+    .last-div-container-fluid{
+        padding-bottom: 220px !important;
     }
     .first-div-icon{
         width: 30%;
