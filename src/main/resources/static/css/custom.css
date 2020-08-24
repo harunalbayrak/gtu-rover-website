@@ -68,6 +68,8 @@ body{
     margin-bottom: 10px;
 }
 .row-second-div{
+    margin-top: 55px;
+    margin-bottom: 55px;
     width: 100.5%;
 }
 @media (max-width: 575.98px) {
