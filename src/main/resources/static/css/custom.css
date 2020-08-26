@@ -1,6 +1,10 @@
 body{
     font-family: 'Titillium Web', sans-serif !important;
 }
+a:link{
+    color: rgb(201, 18, 183);
+    font-weight: bold;
+}
 #first-div{
     background: url(/images/background/back7.jpg) center center / cover no-repeat;
     height: 725px;
@@ -24,6 +28,12 @@ body{
  }
 #fourth-div{
     background: url(/images/background/back5.jpg) center center / cover no-repeat;
+    height: 1000px;
+    color: white;
+    margin-bottom: 50px;
+}
+#fifth-div{
+    background: url(/images/background/back7.jpg) center center / cover no-repeat;
     height: 1000px;
     color: white;
     margin-bottom: 50px;
@@ -79,6 +89,9 @@ body{
     width: 100.5%;
 }
 @media (max-width: 575.98px) {
+    .members-col{
+        margin-bottom: 30px;
+    }
     #navbar-img1{
         width: 150px !important;
         height: 22.5px !important;
@@ -144,6 +157,9 @@ body{
     #fourth-div{
         height: auto;
     }
+    #fifth-div{
+        height: auto;
+    }
     #last-div{
         background-position: center;
         height: auto;
@@ -157,6 +173,9 @@ body{
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
+    .members-col{
+        margin-bottom: 30px;
+    }
     .row-second-div{
         width: 102%;
     }
@@ -217,6 +236,9 @@ body{
     #fourth-div{
         height: auto;
     }
+    #fifth-div{
+        height: auto;
+    }
     #last-div{
         background-position: center;
         height: auto;
@@ -230,6 +252,9 @@ body{
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
+    .members-col{
+        margin-bottom: 30px;
+    }
     .row-second-div{
         width: 102%;
     }
@@ -290,6 +315,9 @@ body{
     #fourth-div{
         height: auto;
     }
+    #fifth-div{
+        height: auto;
+    }
     #last-div{
         background-position: center;
         height: auto;
@@ -303,6 +331,9 @@ body{
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
+    .members-col{
+        margin-bottom: 30px;
+    }
     #carousel1_indicator{
         max-width: 400px;
         max-height: 500px;
@@ -317,6 +348,9 @@ body{
         height: auto;
     }
     #fourth-div{
+        height: auto;
+    }
+    #fifth-div{
         height: auto;
     }
     #last-div{
@@ -346,6 +380,9 @@ body{
         height: auto;
     }
     #fourth-div{
+        height: auto;
+    }
+    #fifth-div{
         height: auto;
     }
     #last-div{
