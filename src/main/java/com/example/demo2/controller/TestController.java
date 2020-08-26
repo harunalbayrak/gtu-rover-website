@@ -17,7 +17,8 @@ public class TestController {
     }
 
     @GetMapping("/members")
-    public String membersPage(){
+    public String membersPage() {
+
         return "members";
     }
 }
