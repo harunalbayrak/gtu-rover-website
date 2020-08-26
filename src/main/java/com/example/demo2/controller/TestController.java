@@ -15,4 +15,9 @@ public class TestController {
         model.addAttribute("instagramPhotos",instagramPhotos);
         return "index";
     }
+
+    @GetMapping("/members")
+    public String membersPage(){
+        return "members";
+    }
 }
