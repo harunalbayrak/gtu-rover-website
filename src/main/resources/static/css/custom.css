@@ -2,7 +2,7 @@ body{
     font-family: 'Titillium Web', sans-serif !important;
 }
 #first-div{
-    background: url(/images/back7.jpg) center center / cover no-repeat;
+    background: url(/images/background/back7.jpg) center center / cover no-repeat;
     height: 725px;
     color: white;
     margin-bottom: 50px;
@@ -11,25 +11,25 @@ body{
     margin-bottom: 70px;
 }
 #second-div{
-    background: url(/images/back4.jpg) center center / cover no-repeat;
+    background: url(/images/background/back4.jpg) center center / cover no-repeat;
     height: auto;
     color: white;
     margin-bottom: 50px;
 }
 #third-div{
-     background: url(/images/back5.jpg) center center / cover no-repeat;
+     background: url(/images/background/back5.jpg) center center / cover no-repeat;
      height: 1000px;
      color: white;
      margin-bottom: 50px;
  }
 #fourth-div{
-    background: url(/images/back5.jpg) center center / cover no-repeat;
+    background: url(/images/background/back5.jpg) center center / cover no-repeat;
     height: 1000px;
     color: white;
     margin-bottom: 50px;
 }
 #last-div{
-    background: url(/images/back3.jpg) center center / cover no-repeat;
+    background: url(/images/background/back3.jpg) center center / cover no-repeat;
     height: 880px;
     color: white;
     margin-bottom: 50px;
@@ -79,6 +79,14 @@ body{
     width: 100.5%;
 }
 @media (max-width: 575.98px) {
+    #navbar-img1{
+        width: 150px !important;
+        height: 22.5px !important;
+    }
+    #navbar-img2{
+        width: 200px !important;
+        height: 30px !important;
+    }
     .row-second-div{
         width: 103%;
     }
