@@ -15,12 +15,4 @@ public class TestController {
         model.addAttribute("instagramPhotos",instagramPhotos);
         return "index";
     }
-
-    @GetMapping("/insta")
-    public String insta(Model model){
-        Deneme deneme = new Deneme(3);
-        List<InstagramPhoto> instagramPhotos = deneme.getInstagramPhotos();
-        model.addAttribute("instagramPhotos",instagramPhotos);
-        return "insta";
-    }
 }

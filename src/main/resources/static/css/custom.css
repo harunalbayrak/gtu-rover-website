@@ -17,6 +17,12 @@ body{
     margin-bottom: 50px;
 }
 #third-div{
+     background: url(/images/back5.jpg) center center / cover no-repeat;
+     height: 1000px;
+     color: white;
+     margin-bottom: 50px;
+ }
+#fourth-div{
     background: url(/images/back5.jpg) center center / cover no-repeat;
     height: 1000px;
     color: white;
@@ -127,6 +133,9 @@ body{
     #third-div{
         height: auto;
     }
+    #fourth-div{
+        height: auto;
+    }
     #last-div{
         background-position: center;
         height: auto;
@@ -195,6 +204,9 @@ body{
         height: auto;
     }
     #third-div{
+        height: auto;
+    }
+    #fourth-div{
         height: auto;
     }
     #last-div{
@@ -267,6 +279,9 @@ body{
     #third-div{
         height: auto;
     }
+    #fourth-div{
+        height: auto;
+    }
     #last-div{
         background-position: center;
         height: auto;
@@ -293,6 +308,9 @@ body{
     #third-div{
         height: auto;
     }
+    #fourth-div{
+        height: auto;
+    }
     #last-div{
         background-position: center;
         height: auto;
@@ -317,6 +335,9 @@ body{
         height: auto;
     }
     #third-div{
+        height: auto;
+    }
+    #fourth-div{
         height: auto;
     }
     #last-div{
