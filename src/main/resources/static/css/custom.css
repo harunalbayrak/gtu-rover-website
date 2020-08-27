@@ -123,7 +123,7 @@ body{
 }
 
 .lib-panel {
-    width: 80%;
+    width: 70%;
     margin-bottom: 20Px;
 }
 .lib-panel img {
@@ -133,7 +133,7 @@ body{
 .lib-panel .row,
 .lib-panel .col-md-6 {
     padding: 0;
-    background-color: rgba(255, 255, 255, 0.30);
+    background-color: rgba(255, 255, 255, 0.49);
 }
 .lib-panel .lib-row {
     padding: 0 20px 0 20px;
@@ -171,10 +171,18 @@ body{
     padding: 0;
 }
 .lib-row{
-    color: black;
+    color: rebeccapurple;
+}
+.lib-header{
+    margin-top: 50px;
+    font-size: 30px !important;
+    font-weight: bold;
 }
 
 @media (max-width: 575.98px) {
+    .lib-header{
+        margin-top: 25px;
+    }
     .members-col{
         margin-bottom: 30px;
     }
@@ -192,7 +200,10 @@ body{
     #carousel1_indicator{
         max-width: 300px !important;
         max-height: 375px !important;
-        margin: 0 auto;
+        margin: 0 auto !important;
+    }
+    .carousel-inner2{
+        margin: 0 auto !important;
     }
     .img-first-div{
         width: 250px;
@@ -210,7 +221,7 @@ body{
     }
     .h1-second-div{
         margin-top: 35px;
-        font-size: 24px;
+        font-size: 30px !important;
         text-align: center;
     }
     .h2-last-div{
@@ -226,9 +237,22 @@ body{
         text-align: center;
     }
     .p-second-div{
-        font-size: 14px;
+        font-size: 19px !important;
+        margin-left: 17px;
+        margin-right: 17px;
         text-align: center;
         padding: 10px;
+    }
+    .h1-fourth-div{
+        font-size: 50px !important;
+    }
+    .h1-fourth-div-2{
+        font-size: 30px !important;
+    }
+    .img-fourth-div{
+        width: 60%;
+        height: 60%;
+        margin-bottom: 30px;
     }
     #first-div{
         height: auto;
@@ -256,15 +280,16 @@ body{
     .first-div-icon{
         width: 70px;
     }
-    .lib-desc{
-        margin-bottom: 25px;
+    .lib-row{
+        margin-bottom: 25px !important;
     }
-    .carousel-inner{
-        margin-left: 0 !important;
-    }
+
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
+    .lib-header{
+        margin-top: 25px;
+    }
     .members-col{
         margin-bottom: 30px;
     }
@@ -274,7 +299,10 @@ body{
     #carousel1_indicator{
         max-width: 300px !important;
         max-height: 375px !important;
-        margin: 0 auto;
+        margin: 0 auto !important;
+    }
+    .carousel-inner2{
+        margin: 0 auto !important;
     }
     .img-first-div{
         width: 250px;
@@ -308,13 +336,22 @@ body{
         text-align: center;
     }
     .p-second-div{
-        font-size: 15px;
+        font-size: 21px !important;
+        margin-left: 17px;
+        margin-right: 17px;
         text-align: center;
         padding: 10px;
     }
-    #carousel1_indicator{
-        max-width: 300px;
-        max-height: 375px;
+    .h1-fourth-div{
+        font-size: 55px !important;
+    }
+    .h1-fourth-div-2{
+        font-size: 35px !important;
+    }
+    .img-fourth-div{
+        width: 65%;
+        height: 65%;
+        margin-bottom: 30px;
     }
     #first-div{
         height: auto;
@@ -347,6 +384,9 @@ body{
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
+    .lib-header{
+        margin-top: 30px;
+    }
     .members-col{
         margin-bottom: 30px;
     }
@@ -356,7 +396,10 @@ body{
     #carousel1_indicator{
         max-width: 400px !important;
         max-height: 500px !important;
-        margin: 0 auto;
+        margin: 0 auto !important;
+    }
+    .carousel-inner2{
+        margin: 0 auto !important;
     }
     .img-first-div{
         width: 250px;
@@ -429,6 +472,9 @@ body{
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
+    .lib-header{
+        margin-top: 35px;
+    }
     .members-col{
         margin-bottom: 30px;
     }
@@ -499,8 +545,12 @@ body{
 }
 
 #carousel1_indicator{
+    margin-left: 70px;
     max-width: 400px;
     max-height: 500px;
+}
+.carousel-inner2{
+    margin-left: 30px;
 }
 .carousel-item{
     max-width: 400px;
@@ -508,9 +558,3 @@ body{
     background:#ccc;
 }
 
-.carousel-control-prev{
-}
-
-.carousel-inner{
-    margin-left: 35px;
-}
