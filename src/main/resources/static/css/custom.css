@@ -1,17 +1,35 @@
 body{
     font-family: 'Titillium Web', sans-serif !important;
 }
-a:link{
+.members-linked:link{
     color: rgb(201, 18, 183);
     font-weight: bold;
 }
-a:visited{
+.members-linked:visited{
     color: rgb(201, 18, 183);
     font-weight: bold;
+}
+.members-linked:hover{
+    color: lightpink !important;
+    font-weight: bold;
+    text-decoration: none;
+}
+.index-first-div-linked:link{
+    color: white !important;
+    font-weight: bold;
+}
+.index-first-div-linked:visited{
+    color: white !important;
+    font-weight: bold;
+}
+.index-first-div-linked:hover{
+    color: orange !important;
+    font-weight: bold;
+    text-decoration: none;
 }
 #first-div{
     background: url(/images/background/back7.jpg) center center / cover no-repeat;
-    height: 725px;
+    height: 1000px;
     color: white;
     margin-bottom: 50px;
 }
@@ -56,15 +74,25 @@ a:visited{
     border-bottom: 2px solid #9867dd;
     background-color: rgba(70, 63, 107, 0.33)
 }
+.first-div-icon{
+    width: 120px !important;
+}
+.first-div-icon:hover{
+    transition-duration: 200ms;
+    width: 122px !important;
+}
 .mycol{
     margin-bottom: 20px;
+}
+.h1-first-div{
+    margin-top: 100px;
 }
 .h3-first-div{
     color: hotpink;
     font-weight: normal;
 }
 .h3-first-div-2{
-    font-weight: normal;
+    font-weight: 500;
     text-line-through: double;
 }
 .h1-second-div{
@@ -92,6 +120,58 @@ a:visited{
     margin-bottom: 55px;
     width: 100.5%;
 }
+
+.lib-panel {
+    width: 80%;
+    margin-bottom: 20Px;
+}
+.lib-panel img {
+    width: 100%;
+    background-color: transparent;
+}
+.lib-panel .row,
+.lib-panel .col-md-6 {
+    padding: 0;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.lib-panel .lib-row {
+    padding: 0 20px 0 20px;
+}
+.lib-panel .lib-row.lib-header {
+    font-size: 20px;
+    padding: 10px 20px 0 20px;
+}
+.lib-panel .lib-row.lib-header .lib-header-seperator {
+    height: 2px;
+    width: 26px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 7px 0 7px 0;
+}
+.lib-panel .lib-row.lib-desc {
+    position: relative;
+    height: 100%;
+    display: block;
+    font-size: 13px;
+}
+.lib-panel .lib-row.lib-desc a{
+    position: absolute;
+    width: 100%;
+    bottom: 10px;
+    left: 20px;
+}
+.row-margin-bottom {
+    margin-bottom: 20px;
+}
+.box-shadow {
+    -webkit-box-shadow: 0 0 10px 0 rgba(0,0,0,.10);
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.10);
+}
+.no-padding {
+    padding: 0;
+}
+.lib-row{
+}
+
 @media (max-width: 575.98px) {
     .members-col{
         margin-bottom: 30px;
@@ -114,11 +194,11 @@ a:visited{
     }
     .img-first-div{
         width: 250px;
-        height: 200px;
+        height: 250px;
         text-align: center;
     }
     .h1-first-div{
-        margin-top: 35px;
+        margin-top: 30px;
         font-size: 35px !important;
         text-align: center;
     }
