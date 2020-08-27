@@ -109,6 +109,7 @@ body{
 }
 .p-second-div{
     padding-right: 0;
+    font-size: 18px;
     overflow: hidden;
 }
 .p-last-div{
@@ -132,7 +133,7 @@ body{
 .lib-panel .row,
 .lib-panel .col-md-6 {
     padding: 0;
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0.30);
 }
 .lib-panel .lib-row {
     padding: 0 20px 0 20px;
@@ -142,9 +143,9 @@ body{
     padding: 10px 20px 0 20px;
 }
 .lib-panel .lib-row.lib-header .lib-header-seperator {
-    height: 2px;
-    width: 26px;
-    background-color: rgba(255, 255, 255, 0.2);
+    height: 3px;
+    width: 40px;
+    background-color: orangered;
     margin: 7px 0 7px 0;
 }
 .lib-panel .lib-row.lib-desc {
@@ -170,6 +171,7 @@ body{
     padding: 0;
 }
 .lib-row{
+    color: black;
 }
 
 @media (max-width: 575.98px) {
@@ -254,6 +256,12 @@ body{
     .first-div-icon{
         width: 70px;
     }
+    .lib-desc{
+        margin-bottom: 25px;
+    }
+    .carousel-inner{
+        margin-left: 0 !important;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -332,6 +340,9 @@ body{
     }
     .first-div-icon{
         width: 30%;
+    }
+    .carousel-inner{
+        margin-left: 0 !important;
     }
 }
 
@@ -412,6 +423,9 @@ body{
     .first-div-icon{
         width: 30%;
     }
+    .carousel-inner{
+        margin-left: 0 !important;
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
@@ -446,6 +460,9 @@ body{
     }
     .first-div-icon{
         width: 30%;
+    }
+    .carousel-inner{
+        margin-left: 0 !important;
     }
 }
 
@@ -494,3 +511,6 @@ body{
 .carousel-control-prev{
 }
 
+.carousel-inner{
+    margin-left: 35px;
+}
