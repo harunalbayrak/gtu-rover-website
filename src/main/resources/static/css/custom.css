@@ -1,72 +1,95 @@
-body{
+body {
     font-family: 'Titillium Web', sans-serif !important;
 }
-.members-linked:link{
+
+.members-linked:link {
     color: rgb(201, 18, 183);
     font-weight: bold;
 }
-.members-linked:visited{
+
+.members-linked:visited {
     color: rgb(201, 18, 183);
     font-weight: bold;
 }
-.members-linked:hover{
+
+.members-linked:hover {
     color: lightpink !important;
     font-weight: bold;
     text-decoration: none;
 }
-.index-first-div-linked:link{
+
+.index-first-div-linked:link {
     color: white !important;
     font-weight: bold;
 }
-.index-first-div-linked:visited{
+
+.index-first-div-linked:visited {
     color: white !important;
     font-weight: bold;
 }
-.index-first-div-linked:hover{
+
+.index-first-div-linked:hover {
     color: orange !important;
     font-weight: bold;
     text-decoration: none;
 }
-#first-div{
+
+#first-div {
     background: url(/images/background/back7.jpg) center center / cover no-repeat;
     height: 1000px;
     color: white;
     margin-bottom: 50px;
 }
-#first-div-first{
+
+#first-div-first {
     margin-bottom: 70px;
 }
-#second-div{
+
+#second-div {
     background: url(/images/background/back4.jpg) center center / cover no-repeat;
     height: auto;
     color: white;
     margin-bottom: 50px;
 }
-#third-div{
-     background: url(/images/background/back5.jpg) center center / cover no-repeat;
-     height: 1000px;
-     color: white;
-     margin-bottom: 50px;
- }
-#fourth-div{
+
+#third-div {
     background: url(/images/background/back5.jpg) center center / cover no-repeat;
     height: 1000px;
     color: white;
     margin-bottom: 50px;
 }
-#fifth-div{
+
+#fourth-div {
+    background: url(/images/background/back5.jpg) center center / cover no-repeat;
+    height: 1000px;
+    color: white;
+    margin-bottom: 50px;
+}
+
+#fifth-div {
     background: url(/images/background/back7.jpg) center center / cover no-repeat;
     height: 1000px;
     color: white;
     margin-bottom: 50px;
 }
-#last-div{
+
+#last-div {
     background: url(/images/background/back3.jpg) center center / cover no-repeat;
     height: 880px;
     color: white;
     margin-bottom: 50px;
 }
-.container-last-div{
+
+.contact-border {
+    clip-path: polygon(0 0, 100% 0, 95% 100%, 5% 100%);
+    width: 40%;
+    margin: -1px auto auto;
+    border-width: 0;
+    height: 15px;
+    background-color: #9767dd;
+}
+
+.container-last-div {
     margin-top: 70px;
     border-top: 7px solid #9767dd;
     border-left: 4px solid #2c264a;
@@ -74,49 +97,61 @@ body{
     border-bottom: 2px solid #9867dd;
     background-color: rgba(70, 63, 107, 0.33)
 }
-.first-div-icon{
+
+.first-div-icon {
     width: 120px !important;
 }
-.first-div-icon:hover{
+
+.first-div-icon:hover {
     transition-duration: 200ms;
     width: 122px !important;
 }
-.mycol{
+
+.mycol {
     margin-bottom: 20px;
 }
-.h1-first-div{
+
+.h1-first-div {
     margin-top: 100px;
 }
-.h3-first-div{
+
+.h3-first-div {
     color: hotpink;
     font-weight: normal;
 }
-.h3-first-div-2{
+
+.h3-first-div-2 {
     font-weight: 500;
     text-line-through: double;
 }
-.h1-second-div{
+
+.h1-second-div {
     padding-right: 0;
     overflow: hidden;
 }
-.h1-last-div{
+
+.h1-last-div {
     margin-top: 30px;
     margin-bottom: 20px;
     font-weight: normal;
 }
-.h2-last-div{
+
+.h2-last-div {
     color: rgb(198, 124, 222);
 }
-.p-second-div{
+
+.p-second-div {
     padding-right: 0;
     font-size: 18px;
     overflow: hidden;
 }
-.p-last-div{
+
+.p-last-div {
     font-size: 18px;
     margin-bottom: 10px;
 }
-.row-second-div{
+
+.row-second-div {
     margin-top: 55px;
     margin-bottom: 55px;
     width: 100.5%;
@@ -126,435 +161,543 @@ body{
     width: 70%;
     margin-bottom: 20Px;
 }
+
 .lib-panel img {
     width: 100%;
     background-color: transparent;
 }
+
 .lib-panel .row,
 .lib-panel .col-md-6 {
     padding: 0;
     background-color: rgba(255, 255, 255, 0.49);
 }
+
 .lib-panel .lib-row {
     padding: 0 20px 0 20px;
 }
+
 .lib-panel .lib-row.lib-header {
     font-size: 20px;
     padding: 10px 20px 0 20px;
 }
+
 .lib-panel .lib-row.lib-header .lib-header-seperator {
     height: 3px;
     width: 40px;
     background-color: orangered;
     margin: 7px 0 7px 0;
 }
+
 .lib-panel .lib-row.lib-desc {
     position: relative;
     height: 100%;
     display: block;
     font-size: 13px;
 }
-.lib-panel .lib-row.lib-desc a{
+
+.lib-panel .lib-row.lib-desc a {
     position: absolute;
     width: 100%;
     bottom: 10px;
     left: 20px;
 }
+
 .row-margin-bottom {
     margin-bottom: 20px;
 }
+
 .box-shadow {
-    -webkit-box-shadow: 0 0 10px 0 rgba(0,0,0,.10);
-    box-shadow: 0 0 10px 0 rgba(0,0,0,.10);
+    -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, .10);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .10);
 }
+
 .no-padding {
     padding: 0;
 }
-.lib-row{
+
+.lib-row {
     color: rebeccapurple;
 }
-.lib-header{
+
+.lib-header {
     margin-top: 50px;
     font-size: 30px !important;
     font-weight: bold;
 }
 
 @media (max-width: 575.98px) {
-    .lib-header{
+    .lib-header {
         margin-top: 25px;
     }
-    .members-col{
+
+    .members-col {
         margin-bottom: 30px;
     }
-    #navbar-img1{
+
+    #navbar-img1 {
         width: 150px !important;
         height: 22.5px !important;
     }
-    #navbar-img2{
+
+    #navbar-img2 {
         width: 200px !important;
         height: 30px !important;
     }
-    .row-second-div{
+
+    .row-second-div {
         width: 103%;
     }
-    #carousel1_indicator{
+
+    #carousel1_indicator {
         max-width: 300px !important;
         max-height: 375px !important;
         margin: 0 auto !important;
     }
-    .carousel-inner2{
+
+    .carousel-inner2 {
         margin: 0 auto !important;
     }
-    .img-first-div{
+
+    .img-first-div {
         width: 250px;
         height: 250px;
         text-align: center;
     }
-    .h1-first-div{
+
+    .h1-first-div {
         margin-top: 30px;
         font-size: 35px !important;
         text-align: center;
     }
-    .p-first-div{
+
+    .p-first-div {
         font-size: 20px !important;
         text-align: center;
     }
-    .h1-second-div{
+
+    .h1-second-div {
         margin-top: 35px;
         font-size: 30px !important;
         text-align: center;
     }
-    .h2-last-div{
+
+    .h2-last-div {
         text-align: center;
     }
-    .p-last-div{
+
+    .p-last-div {
         text-align: center;
     }
-    .last-p{
+
+    .last-p {
         margin-bottom: 45px !important;
     }
-    .col-last-div{
+
+    .col-last-div {
         text-align: center;
     }
-    .p-second-div{
+
+    .p-second-div {
         font-size: 19px !important;
         margin-left: 17px;
         margin-right: 17px;
         text-align: center;
         padding: 10px;
     }
-    .h1-fourth-div{
+
+    .h1-fourth-div {
         font-size: 50px !important;
     }
-    .h1-fourth-div-2{
+
+    .h1-fourth-div-2 {
         font-size: 30px !important;
     }
-    .img-fourth-div{
+
+    .img-fourth-div {
         width: 60%;
         height: 60%;
         margin-bottom: 30px;
     }
-    #first-div{
+
+    #first-div {
         height: auto;
     }
-    #second-div{
+
+    #second-div {
         height: auto;
         padding-right: 0 !important;
     }
-    #third-div{
+
+    #third-div {
         height: auto;
     }
-    #fourth-div{
+
+    #fourth-div {
         height: auto;
     }
-    #fifth-div{
+
+    #fifth-div {
         height: auto;
     }
-    #last-div{
+
+    #last-div {
         background-position: center;
         height: auto;
     }
+
     .last-div-container-fluid {
         padding-bottom: 110px !important;
     }
-    .first-div-icon{
+
+    .first-div-icon {
         width: 70px;
     }
-    .lib-row{
+
+    .lib-row {
         margin-bottom: 25px !important;
     }
 
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
-    .lib-header{
+    .lib-header {
         margin-top: 25px;
     }
-    .members-col{
+
+    .members-col {
         margin-bottom: 30px;
     }
-    .row-second-div{
+
+    .row-second-div {
         width: 102%;
     }
-    #carousel1_indicator{
+
+    #carousel1_indicator {
         max-width: 300px !important;
         max-height: 375px !important;
         margin: 0 auto !important;
     }
-    .carousel-inner2{
+
+    .carousel-inner2 {
         margin: 0 auto !important;
     }
-    .img-first-div{
+
+    .img-first-div {
         width: 250px;
         height: 250px;
         text-align: center;
     }
-    .h1-first-div{
+
+    .h1-first-div {
         margin-top: 35px;
         font-size: 35px !important;
         text-align: center;
     }
-    .p-first-div{
+
+    .p-first-div {
         font-size: 20px !important;
         text-align: center;
     }
-    .h1-second-div{
+
+    .h1-second-div {
         margin-top: 35px;
         font-size: 30px;
         text-align: center;
     }
-    .h2-last-div{
+
+    .h2-last-div {
         text-align: center;
     }
-    .p-last-div{
+
+    .p-last-div {
         text-align: center;
     }
-    .last-p{
+
+    .last-p {
         margin-bottom: 45px !important;
     }
-    .col-last-div{
+
+    .col-last-div {
         text-align: center;
     }
-    .p-second-div{
+
+    .p-second-div {
         font-size: 21px !important;
         margin-left: 17px;
         margin-right: 17px;
         text-align: center;
         padding: 10px;
     }
-    .h1-fourth-div{
+
+    .h1-fourth-div {
         font-size: 55px !important;
     }
-    .h1-fourth-div-2{
+
+    .h1-fourth-div-2 {
         font-size: 35px !important;
     }
-    .img-fourth-div{
+
+    .img-fourth-div {
         width: 65%;
         height: 65%;
         margin-bottom: 30px;
     }
-    #first-div{
+
+    #first-div {
         height: auto;
     }
-    #second-div{
+
+    #second-div {
         height: auto;
     }
-    #third-div{
+
+    #third-div {
         height: auto;
     }
-    #fourth-div{
+
+    #fourth-div {
         height: auto;
     }
-    #fifth-div{
+
+    #fifth-div {
         height: auto;
     }
-    #last-div{
+
+    #last-div {
         background-position: center;
         height: auto;
     }
+
     .last-div-container-fluid {
         padding-bottom: 110px !important;
     }
-    .first-div-icon{
+
+    .first-div-icon {
         width: 30%;
     }
-    .carousel-inner{
+
+    .carousel-inner {
         margin-left: 0 !important;
     }
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
-    .lib-header{
+    .lib-header {
         margin-top: 30px;
     }
-    .members-col{
+
+    .members-col {
         margin-bottom: 30px;
     }
-    .row-second-div{
+
+    .row-second-div {
         width: 102%;
     }
-    #carousel1_indicator{
+
+    #carousel1_indicator {
         max-width: 400px !important;
         max-height: 500px !important;
         margin: 0 auto !important;
     }
-    .carousel-inner2{
+
+    .carousel-inner2 {
         margin: 0 auto !important;
     }
-    .img-first-div{
+
+    .img-first-div {
         width: 300px;
         height: 300px;
         text-align: center;
     }
-    .h1-first-div{
+
+    .h1-first-div {
         margin-top: 35px;
         font-size: 35px !important;
         text-align: center;
     }
-    .p-first-div{
+
+    .p-first-div {
         font-size: 20px !important;
         text-align: center;
     }
-    .h1-second-div{
+
+    .h1-second-div {
         margin-top: 35px;
         font-size: 30px;
         text-align: center;
     }
-    .h2-last-div{
+
+    .h2-last-div {
         text-align: center;
     }
-    .p-last-div{
+
+    .p-last-div {
         text-align: center;
     }
-    .last-p{
+
+    .last-p {
         margin-bottom: 45px !important;
     }
-    .col-last-div{
+
+    .col-last-div {
         text-align: center;
     }
-    .p-second-div{
+
+    .p-second-div {
         font-size: 15px;
         text-align: center;
         padding: 10px;
     }
-    #carousel1_indicator{
+
+    #carousel1_indicator {
         max-width: 400px;
         max-height: 500px;
     }
-    #first-div{
+
+    #first-div {
         height: auto;
     }
-    #second-div{
+
+    #second-div {
         height: auto;
     }
-    #third-div{
+
+    #third-div {
         height: auto;
     }
-    #fourth-div{
+
+    #fourth-div {
         height: auto;
     }
-    #fifth-div{
+
+    #fifth-div {
         height: auto;
     }
-    #last-div{
+
+    #last-div {
         background-position: center;
         height: auto;
     }
+
     .last-div-container-fluid {
         padding-bottom: 110px !important;
     }
-    .first-div-icon{
+
+    .first-div-icon {
         width: 30%;
     }
-    .carousel-inner{
+
+    .carousel-inner {
         margin-left: 0 !important;
     }
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
-    .lib-header{
+    .lib-header {
         margin-top: 35px;
     }
-    .members-col{
+
+    .members-col {
         margin-bottom: 30px;
     }
-    #carousel1_indicator{
+
+    #carousel1_indicator {
         max-width: 400px;
         max-height: 500px;
     }
-    #first-div{
+
+    #first-div {
         height: auto;
     }
-    #second-div{
+
+    #second-div {
         height: auto;
     }
-    #third-div{
+
+    #third-div {
         height: auto;
     }
-    #fourth-div{
+
+    #fourth-div {
         height: auto;
     }
-    #fifth-div{
+
+    #fifth-div {
         height: auto;
     }
-    #last-div{
+
+    #last-div {
         background-position: center;
         height: auto;
     }
+
     .last-div-container-fluid {
         padding-bottom: 110px !important;
     }
-    .first-div-icon{
+
+    .first-div-icon {
         width: 30%;
     }
-    .carousel-inner{
+
+    .carousel-inner {
         margin-left: 0 !important;
     }
 }
 
 @media (min-width: 1200px) {
-    #carousel1_indicator{
+    #carousel1_indicator {
         max-width: 400px;
         max-height: 500px;
     }
-    #first-div{
+
+    #first-div {
         height: auto;
     }
-    #second-div{
+
+    #second-div {
         height: auto;
     }
-    #third-div{
+
+    #third-div {
         height: auto;
     }
-    #fourth-div{
+
+    #fourth-div {
         height: auto;
     }
-    #fifth-div{
+
+    #fifth-div {
         height: auto;
     }
-    #last-div{
+
+    #last-div {
         background-position: center center;
         height: auto;
     }
-    .last-div-container-fluid{
+
+    .last-div-container-fluid {
         padding-bottom: 220px !important;
     }
-    .first-div-icon{
+
+    .first-div-icon {
         width: 30%;
     }
 }
 
-#carousel1_indicator{
+#carousel1_indicator {
     margin-left: 70px;
     max-width: 400px;
     max-height: 500px;
 }
-.carousel-inner2{
+
+.carousel-inner2 {
     margin-left: 30px;
 }
-.carousel-item{
+
+.carousel-item {
     max-width: 400px;
     max-height: 500px;
-    background:#ccc;
+    background: #ccc;
 }
 
