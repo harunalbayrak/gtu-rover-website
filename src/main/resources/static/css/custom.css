@@ -113,6 +113,12 @@ body {
 
 .h1-first-div {
     margin-top: 100px;
+    color: #bb78cb;
+}
+
+.lightwidget-widget{
+    border-radius: 25px;
+    margin: 0 auto;
 }
 
 .h3-first-div {
