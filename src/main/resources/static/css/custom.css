@@ -63,7 +63,7 @@ body {
 }
 
 .index-first-div-linked:hover {
-    color: orange !important;
+    color: #ae6ebe !important;
     font-weight: bold;
     text-decoration: none;
 }
@@ -323,6 +323,10 @@ body {
         text-align: center;
     }
 
+    .h1-first-div-2{
+        text-align: center;
+    }
+
     .p-first-div {
         font-size: 20px !important;
         text-align: center;
@@ -452,6 +456,10 @@ body {
         text-align: center;
     }
 
+    .h1-first-div-2{
+        text-align: center;
+    }
+
     .p-first-div {
         font-size: 20px !important;
         text-align: center;
@@ -576,6 +584,10 @@ body {
     .h1-first-div {
         margin-top: 35px;
         font-size: 35px !important;
+        text-align: center;
+    }
+
+    .h1-first-div-2{
         text-align: center;
     }
 
