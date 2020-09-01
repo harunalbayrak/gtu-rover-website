@@ -2,6 +2,40 @@ body {
     font-family: 'Titillium Web', sans-serif !important;
 }
 
+@font-face {
+    font-family: 'Sifonn Pro';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Sifonn Pro'), url('/fonts/SIFONN_PRO.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'sifonnbasic';
+    src: url('/fonts/sifonn_basic-webfont.woff2') format('woff2'),
+    url('/fonts/sifonn_basic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'League Gothic';
+    src: url('/fonts/LeagueGothic-Regular.woff2') format('woff2'),
+    url('/fonts/LeagueGothic-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Trajan Pro';
+    src: url('/fonts/TrajanPro-Regular.woff2') format('woff2'),
+    url('/fonts/TrajanPro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 .members-linked:link {
     color: rgb(201, 18, 183);
     font-weight: bold;
@@ -114,6 +148,13 @@ body {
 .h1-first-div {
     margin-top: 100px;
     color: #bb78cb;
+}
+
+.font-sifonn{
+    font-family: 'sifonnbasic', sans-serif !important;
+    font-weight: lighter !important;
+    font-style: normal !important;
+    letter-spacing: 2px;
 }
 
 .lightwidget-widget{
@@ -237,6 +278,11 @@ body {
         margin-top: 25px;
     }
 
+    .lightwidget-widget{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
     .members-col {
         margin-bottom: 30px;
     }
@@ -313,7 +359,7 @@ body {
     }
 
     .h1-fourth-div {
-        font-size: 50px !important;
+        font-size: 37px !important;
     }
 
     .h1-fourth-div-2 {
@@ -369,6 +415,11 @@ body {
 @media (min-width: 576px) and (max-width: 767.98px) {
     .lib-header {
         margin-top: 25px;
+    }
+
+    .lightwidget-widget{
+        padding-left: 45px;
+        padding-right: 45px;
     }
 
     .members-col {
@@ -491,6 +542,11 @@ body {
 @media (min-width: 768px) and (max-width: 991.98px) {
     .lib-header {
         margin-top: 30px;
+    }
+
+    .lightwidget-widget{
+        padding-left: 60px;
+        padding-right: 60px;
     }
 
     .members-col {
