@@ -37,13 +37,13 @@ body {
 }
 
 .members-linked:link {
-    color: rgb(201, 18, 183);
-    font-weight: bold;
+    color: white !important;
+    font-weight: normal;
 }
 
 .members-linked:visited {
-    color: rgb(201, 18, 183);
-    font-weight: bold;
+    color: white !important;
+    font-weight: normal;
 }
 
 .members-linked:hover {
