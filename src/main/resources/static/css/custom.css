@@ -215,6 +215,11 @@ body {
     background-color: transparent;
 }
 
+.p-lib-desc{
+    font-size: 20px;
+    font-weight: bold;
+}
+
 .lib-panel .row,
 .lib-panel .col-md-6 {
     padding: 0;
@@ -231,10 +236,15 @@ body {
 }
 
 .lib-panel .lib-row.lib-header .lib-header-seperator {
-    height: 3px;
-    width: 40px;
+    width: 150px;
     background-color: orangered;
-    margin: 7px 0 7px 0;
+    margin: 0 auto;
+    padding-bottom: 3px;
+}
+
+.seperator{
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 .lib-panel .lib-row.lib-desc {
@@ -277,6 +287,12 @@ body {
 @media (max-width: 575.98px) {
     .lib-header {
         margin-top: 25px;
+    }
+
+    .seperator{
+        margin-bottom: 0 !important;
+        padding-bottom: 0 !important;
+        margin-top: 5px !important;
     }
 
     .lightwidget-widget {
@@ -412,9 +428,12 @@ body {
     }
 
     .lib-row {
-        margin-bottom: 25px !important;
+        margin-bottom: 13px !important;
     }
 
+    .lib-desc {
+        margin-bottom: 20px !important;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -546,11 +565,26 @@ body {
     .carousel-inner {
         margin-left: 0 !important;
     }
+
+    .lib-desc {
+        margin-bottom: 20px !important;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
-    .lib-header {
-        margin-top: 30px;
+    .p-lib-desc{
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    .lib-header{
+        margin-top: 10px;
+        font-size: 19px !important;
+    }
+
+    .seperator{
+        margin-bottom: 10px !important;
+        margin-top: 3px !important;
     }
 
     .lightwidget-widget {
@@ -666,11 +700,26 @@ body {
     .carousel-inner {
         margin-left: 0 !important;
     }
+
+    .lib-desc {
+        margin-bottom: 20px !important;
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
-    .lib-header {
-        margin-top: 35px;
+    .p-lib-desc{
+        font-size: 17px;
+        font-weight: bold;
+    }
+
+    .lib-header{
+        margin-top: 20px;
+        font-size: 25px !important;
+    }
+
+    .seperator{
+        margin-bottom: 15px !important;
+        margin-top: 8px !important;
     }
 
     .members-col {
