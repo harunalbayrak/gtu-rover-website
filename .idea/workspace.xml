@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="eb913ae8-aaf0-4bf8-9f3f-6cfd8e71db63" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/custom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DarkyenusTimeTracker">
+    <option name="totalTimeSeconds" value="8152" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1hK4k5EERatPyHnCnxFLCzvBnOS" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Demo2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo2.Demo2Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="eb913ae8-aaf0-4bf8-9f3f-6cfd8e71db63" name="Default Changelist" comment="" />
+      <created>1599746592542</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599746592542</updated>
+      <workItem from="1599746594791" duration="1060000" />
+      <workItem from="1599748037070" duration="7279000" />
+      <workItem from="1599760391823" duration="3096000" />
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1920" height="326" key="GridCell.Tab.0.bottom" timestamp="1599762472793">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1920" height="326" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599762472793" />
+    <state width="1920" height="326" key="GridCell.Tab.0.center" timestamp="1599762472793">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1920" height="326" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599762472793" />
+    <state width="1920" height="326" key="GridCell.Tab.0.left" timestamp="1599762472793">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1920" height="326" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599762472793" />
+    <state width="1920" height="326" key="GridCell.Tab.0.right" timestamp="1599762472793">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1920" height="326" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599762472793" />
+    <state width="1920" height="326" key="GridCell.Tab.1.bottom" timestamp="1599762472793">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1920" height="326" key="GridCell.Tab.1.bottom/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599762472793" />
+    <state width="1920" height="326" key="GridCell.Tab.1.center" timestamp="1599762472793">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1920" height="326" key="GridCell.Tab.1.center/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599762472793" />
+    <state width="1920" height="326" key="GridCell.Tab.1.left" timestamp="1599762472793">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1920" height="326" key="GridCell.Tab.1.left/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599762472793" />
+    <state width="1920" height="326" key="GridCell.Tab.1.right" timestamp="1599762472793">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1920" height="326" key="GridCell.Tab.1.right/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599762472793" />
+    <state x="2368" y="169" key="SettingsEditor" timestamp="1599751559519">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2368" y="169" key="SettingsEditor/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599751559519" />
+    <state x="2130" y="285" width="540" height="540" key="StructurePopup" timestamp="1599760481055">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2130" y="285" width="540" height="540" key="StructurePopup/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599760481055" />
+    <state x="2543" y="236" width="672" height="678" key="search.everywhere.popup" timestamp="1599762103047">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2543" y="236" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599762103047" />
+  </component>
+</project>
