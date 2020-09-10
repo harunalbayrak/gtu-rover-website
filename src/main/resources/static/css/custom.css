@@ -108,7 +108,7 @@ body {
 }
 
 #last-div {
-    background: url(/images/background/background5.png) center center / cover no-repeat;
+    background: url(/images/background/background17.jpg) center center / cover no-repeat;
     height: 880px;
     color: white;
     margin-bottom: 50px;
@@ -124,7 +124,7 @@ body {
 }
 
 .container-last-div {
-    margin-top: 70px;
+    margin-top: 100px;
     border-top: 7px solid #9767dd;
     border-left: 4px solid #2c264a;
     border-right: 4px solid #2d274d;
@@ -399,7 +399,7 @@ body {
     }
 
     #last-div {
-        background-position: center;
+        background-position: center center !important;
         height: auto;
     }
 
@@ -531,7 +531,7 @@ body {
     }
 
     #last-div {
-        background-position: center;
+        background-position: center center !important;
         height: auto;
     }
 
@@ -651,7 +651,7 @@ body {
     }
 
     #last-div {
-        background-position: center;
+        background-position: center center !important;
         height: auto;
     }
 
@@ -703,7 +703,7 @@ body {
     }
 
     #last-div {
-        background-position: center;
+        background-position: center center !important;
         height: auto;
     }
 
@@ -747,7 +747,7 @@ body {
     }
 
     #last-div {
-        background-position: center center;
+        background-position: center center !important;
         height: auto;
     }
 
