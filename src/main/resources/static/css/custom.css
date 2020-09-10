@@ -69,7 +69,7 @@ body {
 }
 
 #first-div {
-    background: url(/images/background/newback4.jpg) center center / cover no-repeat;
+    background: url(/images/background/background13.png) center center / cover no-repeat;
     height: 1000px;
     color: white;
     margin-bottom: 50px;
@@ -80,35 +80,35 @@ body {
 }
 
 #second-div {
-    background: url(/images/background/newback2.png) center center / cover no-repeat;
+    background: url(/images/background/background15.png) center center / cover no-repeat;
     height: auto;
     color: white;
     margin-bottom: 50px;
 }
 
 #third-div {
-    background: url(/images/background/newback1.png) center center / cover no-repeat;
+    background: url(/images/background/background2.png) center center / cover no-repeat;
     height: 1000px;
     color: white;
     margin-bottom: 50px;
 }
 
 #fourth-div {
-    background: url(/images/background/newback1.png) center center / cover no-repeat;
+    background: url(/images/background/background7.png) center center / cover no-repeat;
     height: 1000px;
     color: white;
     margin-bottom: 50px;
 }
 
 #fifth-div {
-    background: url(/images/background/newback1.png) center center / cover no-repeat;
+    background: url(/images/background/background16.png) center center / cover no-repeat;
     height: 1000px;
     color: white;
     margin-bottom: 50px;
 }
 
 #last-div {
-    background: url(/images/background/back3.jpg) center center / cover no-repeat;
+    background: url(/images/background/background5.png) center center / cover no-repeat;
     height: 880px;
     color: white;
     margin-bottom: 50px;
