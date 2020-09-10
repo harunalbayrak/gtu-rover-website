@@ -770,6 +770,10 @@ body {
 }
 
 @media (min-width: 1200px) {
+    #first-div p {
+        margin-right: 200px;
+    }
+
     #carousel1_indicator {
         max-width: 400px;
         max-height: 500px;
@@ -829,3 +833,9 @@ body {
     background-color: #31274a;
     opacity: 0.8;
 }
+
+
+#first-div p {
+    font-size: 20px;
+}
+
