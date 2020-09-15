@@ -124,7 +124,8 @@ body {
 }
 
 .container-last-div {
-    margin-top: 100px;
+    margin-top: 20px;
+    width: 70% !important;
     border-top: 7px solid #9767dd;
     border-left: 4px solid #2c264a;
     border-right: 4px solid #2d274d;
@@ -135,7 +136,7 @@ body {
 .first-div-icon {
     float: left;
     width: 120px !important;
-    margin-right: 20px;
+    margin-right: 10px;
     animation: rotateIn;
     animation-duration: 1s;
 }
@@ -147,6 +148,7 @@ body {
 }
 
 .mycol {
+
     margin-bottom: 20px;
 }
 
@@ -520,7 +522,7 @@ a.socialIcon:hover, .socialHoverClass {
     }
 
     .last-div-container-fluid {
-        padding-bottom: 110px !important;
+        padding-bottom: 55px !important;
     }
 
     .first-div-icon {
@@ -546,9 +548,17 @@ a.socialIcon:hover, .socialHoverClass {
         margin: 0;
     }
 
+    .container-last-div {
+        width: 90% !important;
+    }
+
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
+    .container-last-div {
+        width: 90% !important;
+    }
+
     .social-network-div {
         text-align: center;
     }
@@ -675,7 +685,7 @@ a.socialIcon:hover, .socialHoverClass {
     }
 
     .last-div-container-fluid {
-        padding-bottom: 110px !important;
+        padding-bottom: 55px !important;
     }
 
     .first-div-icon {
@@ -702,10 +712,18 @@ a.socialIcon:hover, .socialHoverClass {
         margin: 0;
     }
 
+    .container-last-div {
+        width: 90% !important;
+    }
+
 
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
+    .col {
+        margin-bottom: 0;
+    }
+
     .social-network-div {
         text-align: center;
     }
@@ -833,7 +851,7 @@ a.socialIcon:hover, .socialHoverClass {
     }
 
     .last-div-container-fluid {
-        padding-bottom: 110px !important;
+        padding-bottom: 55px !important;
     }
 
     .first-div-icon {
@@ -852,6 +870,10 @@ a.socialIcon:hover, .socialHoverClass {
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
+    .col {
+        margin-bottom: 80px;
+    }
+
     .p-lib-desc {
         font-size: 17px;
         font-weight: bold;
@@ -902,7 +924,7 @@ a.socialIcon:hover, .socialHoverClass {
     }
 
     .last-div-container-fluid {
-        padding-bottom: 110px !important;
+        padding-bottom: 55px !important;
     }
 
     .first-div-icon {
@@ -920,6 +942,9 @@ a.socialIcon:hover, .socialHoverClass {
 }
 
 @media (min-width: 1200px) {
+    .col {
+        margin-bottom: 80px;
+    }
 
     #carousel1_indicator {
         max-width: 400px;
@@ -954,7 +979,7 @@ a.socialIcon:hover, .socialHoverClass {
     }
 
     .last-div-container-fluid {
-        padding-bottom: 220px !important;
+        padding-bottom: 110px !important;
     }
 
     .first-div-icon {
@@ -962,13 +987,16 @@ a.socialIcon:hover, .socialHoverClass {
     }
 
     .img-first-div {
-        width: 100%;
+        width: 80%;
         height: auto;
     }
 
 }
 
 @media (min-width: 1600px) {
+    .col {
+        margin-bottom: 80px;
+    }
 
     #first-div {
         padding-right: 250px;
@@ -976,7 +1004,7 @@ a.socialIcon:hover, .socialHoverClass {
     }
 
     .img-first-div {
-        width: 100%;
+        width: 80%;
         height: auto;
     }
 }
