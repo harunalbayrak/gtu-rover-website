@@ -114,6 +114,17 @@ body {
     margin-bottom: 50px;
 }
 
+#sixth-div {
+    background: url(/images/background/background10.png) center center / cover no-repeat;
+    height: 400px;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.p-sixth-div {
+    font-size: 25px;
+}
+
 .contact-border {
     clip-path: polygon(0 0, 100% 0, 95% 100%, 5% 100%);
     width: 40%;
@@ -407,13 +418,17 @@ a.socialIcon:hover, .socialHoverClass {
     }
 
     #navbar-img1 {
-        width: 150px !important;
-        height: 22.5px !important;
+        width: 120px !important;
+        height: 18px !important;
     }
 
     #navbar-img2 {
-        width: 200px !important;
-        height: 30px !important;
+        width: 180px !important;
+        height: 27px !important;
+    }
+
+    .navbar-brand {
+        margin-right: 5px !important;
     }
 
     .row-second-div {
@@ -444,6 +459,15 @@ a.socialIcon:hover, .socialHoverClass {
 
     .h1-first-div-2 {
         text-align: center;
+        font-size: 35px !important;
+    }
+
+    .margin1 {
+        margin-left: 6px !important;
+    }
+
+    .margin2 {
+        margin-right: 6px !important;
     }
 
     .p-first-div {
@@ -841,6 +865,10 @@ a.socialIcon:hover, .socialHoverClass {
         height: auto;
     }
 
+    #sixth-div {
+        height: auto;
+    }
+
     #last-div {
         background-position: center center !important;
         height: auto;
@@ -966,6 +994,10 @@ a.socialIcon:hover, .socialHoverClass {
     }
 
     #fifth-div {
+        height: auto;
+    }
+
+    #sixth-div {
         height: auto;
     }
 
