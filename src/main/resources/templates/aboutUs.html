@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <div th:replace="header :: myheader"></div>
+</head>
+<body>
+<div th:insert="navbar :: navbar"></div>
+
+<section id="sixth-div" class="jumbotron jumbotron-fluid align-content-center" style="margin-bottom: 0;">
+    <div class="container">
+        <h1 class="text-center animate__animated animate__fadeInRight  animate__fast font-sifonn h1-first-div-2 display-4"
+            style="font-size: 55px; margin-top: 75px; margin-bottom: 30px">Biz Kimiz?</h1>
+
+        <p class="animate__animated animate__fadeInRight p-sixth-div">Gebze Teknik Üniversitesi Rover takımı, dünyadışı ortam
+            ve gezegenler arası misyonlarda geleceğin problemlerine,
+            robotik çözümler üretmek amacıyla farklı disiplinlerden
+            öğrencilerin bir araya gelmesiyle kurulmuştur. Takımımız
+            Elektronik, Yazılım, Mekanik, Bilim, Sponsorluk & Medya
+            olmak üzere 5 farklı alt takımdan oluşmaktadır. Amacımız,
+            URC/ERC yarışmalarının parametrelerine uygun bir robot
+            tasarlayıp üretmenin yanısıra; gelecek nesil multidisipliner,
+            özverili mühendis ve bilim insanları yetişmesinde, eğitim
+            ve araştırma dünyasında bölgede inovasyonu arttırmakta
+            öncü rol oynamaktır.</p>
+    </div>
+</section>
+
+<div th:insert="footer :: myfooter"></div>
+</body>
+</html>

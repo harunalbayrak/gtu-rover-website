@@ -14,4 +14,9 @@ public class TestController {
     public String membersPage() {
         return "members";
     }
+
+    @GetMapping("/about-us")
+    public String aboutUsPage() {
+        return "aboutUs";
+    }
 }
