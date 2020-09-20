@@ -35,7 +35,8 @@ body {
     transition: 0.15s; !important;
     -webkit-transition: 0.15s !important;
     -o-transition: 0.15s !important;
-    margin-top: 15px !important;
+    margin-top: 225px !important;
+    margin-left: 0 !important;
     line-height: 25px !important;
     border-width: 1px !important;
     padding: 0 35px 0 0 !important;
@@ -64,10 +65,6 @@ body {
 
 .btn-second-div:active{
     border-color: transparent !important;
-}
-
-.btn-div{
-    text-align: center;
 }
 
 @font-face {
