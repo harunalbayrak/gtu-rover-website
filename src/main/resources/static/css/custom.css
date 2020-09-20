@@ -35,14 +35,13 @@ body {
     transition: 0.15s; !important;
     -webkit-transition: 0.15s !important;
     -o-transition: 0.15s !important;
-    margin-left: 25px !important;
-    margin-top: 10px !important;
+    margin-top: 15px !important;
     line-height: 25px !important;
     border-width: 1px !important;
     padding: 0 35px 0 0 !important;
     letter-spacing: 0 !important;
     font-weight: 700 !important;
-    font-size: 16px !important;
+    font-size: 21px !important;
     border-radius: 0 !important;
 }
 
@@ -65,6 +64,10 @@ body {
 
 .btn-second-div:active{
     border-color: transparent !important;
+}
+
+.btn-div{
+    text-align: center;
 }
 
 @font-face {
