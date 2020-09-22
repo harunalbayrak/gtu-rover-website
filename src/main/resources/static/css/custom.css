@@ -158,6 +158,24 @@ body {
     margin-bottom: 50px;
 }
 
+.triangle-bg {
+    background: url(/images/background/triangle.svg), url(/images/background/triangle-thin.svg), url(/images/background/triangle-filled.svg);
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-position: top right, left, bottom right;
+    background-size: 15%, 15%, 5%;
+    border: 100px solid #f1f2f4;
+}
+
+.triangle-bg-2 {
+    background: url(/images/background/triangle.svg), url(/images/background/triangle-thin.svg), url(/images/background/triangle-filled.svg);
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-position: top left, right, bottom right;
+    background-size: 15%, 15%, 5%;
+    border: 100px solid #f1f2f4;
+}
+
 #fourth-div {
     background-color: #f1f2f4;
     height: 1000px;
