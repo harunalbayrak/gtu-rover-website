@@ -556,14 +556,6 @@ a.socialIcon:hover, .socialHoverClass {
         font-size: 35px !important;
     }
 
-    .margin1 {
-        margin-left: 6px !important;
-    }
-
-    .margin2 {
-        margin-right: 6px !important;
-    }
-
     .p-first-div {
         font-size: 20px !important;
         text-align: center;
@@ -1157,3 +1149,7 @@ a.socialIcon:hover, .socialHoverClass {
     font-size: 20px;
 }
 
+
+.third-div .container {
+
+}
