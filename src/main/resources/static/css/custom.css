@@ -489,6 +489,14 @@ a.socialIcon:hover, .socialHoverClass {
 }
 
 @media (max-width: 575.98px) {
+    .btn-second-div {
+        margin-top: 25px !important;
+    }
+
+    .btn-div {
+        text-align: center;
+    }
+
     .triangle-bg, .triangle-bg-2 {
         border: none;
 
@@ -502,10 +510,6 @@ a.socialIcon:hover, .socialHoverClass {
 
     .social-circle li i {
         line-height: 50px;
-    }
-
-    .btn-div {
-        text-align: center;
     }
 
     .social-network-div {
@@ -691,6 +695,14 @@ a.socialIcon:hover, .socialHoverClass {
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
+    .btn-second-div {
+        margin-top: 25px !important;
+    }
+
+    .btn-div {
+        text-align: center;
+    }
+
     .social-network-div {
         text-align: center;
     }
@@ -851,6 +863,14 @@ a.socialIcon:hover, .socialHoverClass {
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
+    .btn-second-div {
+        margin-top: 25px !important;
+    }
+
+    .btn-div {
+        text-align: center;
+    }
+
     .col-first-div {
         margin-bottom: 0;
     }
@@ -1005,6 +1025,14 @@ a.socialIcon:hover, .socialHoverClass {
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
+    .btn-second-div {
+        margin-top: 25px !important;
+    }
+
+    .btn-div {
+        text-align: center;
+    }
+
     .col-first-div {
         margin-bottom: 80px;
     }
