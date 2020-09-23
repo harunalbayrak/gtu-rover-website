@@ -2,37 +2,38 @@ body {
     font-family: 'Titillium Web', sans-serif !important;
 }
 
-.svg-first-div{
+.svg-first-div {
     display: block;
     margin: 0 auto;
     width: 100%;
     transform: scaleY(-1);
 }
 
-.svg-first-div2{
+.svg-first-div2 {
     display: block;
     width: 100%;
     margin: 0 auto;
 }
 
-#first-div{
+#first-div {
     padding-bottom: 0;
 }
 
-#second-div{
+#second-div {
     padding-top: 0;
     padding-bottom: 0;
 }
 
-#last-div{
+#last-div {
     padding-top: 0;
 }
 
-.btn-second-div{
+.btn-second-div {
     color: #fff !important;
     background-color: #ff7149 !important;
     border-color: transparent !important;
-    transition: 0.15s; !important;
+    transition: 0.15s;
+!important;
     -webkit-transition: 0.15s !important;
     -o-transition: 0.15s !important;
     margin-top: 225px !important;
@@ -46,24 +47,24 @@ body {
     border-radius: 0 !important;
 }
 
-.fa-second-div{
+.fa-second-div {
     position: relative !important;
     margin-right: 25px !important;
     background-color: #ff8765 !important;
     padding: 15px;
 }
 
-.btn-second-div:hover{
+.btn-second-div:hover {
     background-color: #ff8765 !important;
     color: #f1f2f4 !important;
     border-color: transparent !important;
 }
 
-.fa-second-div:hover{
+.fa-second-div:hover {
     background-color: #ff7149 !important;
 }
 
-.btn-second-div:active{
+.btn-second-div:active {
     border-color: transparent !important;
 }
 
@@ -339,9 +340,9 @@ body {
 .lib-panel .col-md-6 {
     padding: 0;
     background-color: rgb(56, 41, 79);
-    -webkit-box-shadow: 5px -5px 30px 0px rgba(111,94,135,0.62);
-    -moz-box-shadow: 5px -5px 30px 0px rgba(111,94,135,0.62);
-    box-shadow: 5px -5px 30px 0px rgba(111,94,135,0.62);
+    -webkit-box-shadow: 5px -5px 30px 0px rgba(111, 94, 135, 0.62);
+    -moz-box-shadow: 5px -5px 30px 0px rgba(111, 94, 135, 0.62);
+    box-shadow: 5px -5px 30px 0px rgba(111, 94, 135, 0.62);
 }
 
 .lib-panel .lib-row {
@@ -448,21 +449,21 @@ a.socialIcon:hover, .socialHoverClass {
 }
 
 .social-circle li a {
-    display:inline-block;
-    position:relative;
-    margin:0 auto 0 auto;
-    -moz-border-radius:50%;
-    -webkit-border-radius:50%;
-    border-radius:50%;
-    text-align:center;
+    display: inline-block;
+    position: relative;
+    margin: 0 auto 0 auto;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
     width: 85px;
     height: 85px;
     font-size: 40px;
 }
 
 .social-circle li i {
-    margin:0;
-    line-height:85px;
+    margin: 0;
+    line-height: 85px;
     text-align: center;
 }
 
@@ -488,6 +489,11 @@ a.socialIcon:hover, .socialHoverClass {
 }
 
 @media (max-width: 575.98px) {
+    .triangle-bg, .triangle-bg-2 {
+        border: none;
+
+    }
+
     .social-circle li a {
         width: 50px;
         height: 50px;
@@ -495,10 +501,10 @@ a.socialIcon:hover, .socialHoverClass {
     }
 
     .social-circle li i {
-        line-height:50px;
+        line-height: 50px;
     }
 
-    .btn-div{
+    .btn-div {
         text-align: center;
     }
 
