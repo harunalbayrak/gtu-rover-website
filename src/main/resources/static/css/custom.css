@@ -2,68 +2,69 @@ body {
     font-family: 'Titillium Web', sans-serif !important;
 }
 
-.svg-first-div{
+.svg-first-div {
     display: block;
     margin: 0 auto;
     width: 100%;
     transform: scaleY(-1);
 }
 
-.svg-first-div2{
+.svg-first-div2 {
     display: block;
     width: 100%;
     margin: 0 auto;
 }
 
-#first-div{
+#first-div {
     padding-bottom: 0;
 }
 
-#second-div{
+#second-div {
     padding-top: 0;
     padding-bottom: 0;
 }
 
-#last-div{
+#last-div {
     padding-top: 0;
 }
 
-.btn-second-div{
+.btn-second-div {
     color: #fff !important;
     background-color: #ff7149 !important;
     border-color: transparent !important;
-    transition: 0.15s; !important;
+    transition: 0.15s;
+!important;
     -webkit-transition: 0.15s !important;
     -o-transition: 0.15s !important;
-    margin-left: 25px !important;
-    margin-top: 10px !important;
+    margin-top: 225px !important;
+    margin-left: 0 !important;
     line-height: 25px !important;
     border-width: 1px !important;
     padding: 0 35px 0 0 !important;
     letter-spacing: 0 !important;
     font-weight: 700 !important;
-    font-size: 16px !important;
+    font-size: 21px !important;
     border-radius: 0 !important;
 }
 
-.fa-second-div{
+.fa-second-div {
     position: relative !important;
     margin-right: 25px !important;
     background-color: #ff8765 !important;
     padding: 15px;
 }
 
-.btn-second-div:hover{
+.btn-second-div:hover {
     background-color: #ff8765 !important;
     color: #f1f2f4 !important;
     border-color: transparent !important;
 }
 
-.fa-second-div:hover{
+.fa-second-div:hover {
     background-color: #ff7149 !important;
 }
 
-.btn-second-div:active{
+.btn-second-div:active {
     border-color: transparent !important;
 }
 
@@ -156,6 +157,24 @@ body {
     height: 1000px;
     color: white;
     margin-bottom: 50px;
+}
+
+.triangle-bg {
+    background: url(/images/background/triangle.svg), url(/images/background/triangle-thin.svg), url(/images/background/triangle-filled.svg);
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-position: top right, left, bottom right;
+    background-size: 15%, 15%, 5%;
+    border: 100px solid #f1f2f4;
+}
+
+.triangle-bg-2 {
+    background: url(/images/background/triangle.svg), url(/images/background/triangle-thin.svg), url(/images/background/triangle-filled.svg);
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-position: top left, right, bottom right;
+    background-size: 15%, 15%, 5%;
+    border: 100px solid #f1f2f4;
 }
 
 #fourth-div {
@@ -321,9 +340,9 @@ body {
 .lib-panel .col-md-6 {
     padding: 0;
     background-color: rgb(56, 41, 79);
-    -webkit-box-shadow: 5px -5px 30px 0px rgba(111,94,135,0.62);
-    -moz-box-shadow: 5px -5px 30px 0px rgba(111,94,135,0.62);
-    box-shadow: 5px -5px 30px 0px rgba(111,94,135,0.62);
+    -webkit-box-shadow: 5px -5px 30px 0px rgba(111, 94, 135, 0.62);
+    -moz-box-shadow: 5px -5px 30px 0px rgba(111, 94, 135, 0.62);
+    box-shadow: 5px -5px 30px 0px rgba(111, 94, 135, 0.62);
 }
 
 .lib-panel .lib-row {
@@ -430,21 +449,21 @@ a.socialIcon:hover, .socialHoverClass {
 }
 
 .social-circle li a {
-    display:inline-block;
-    position:relative;
-    margin:0 auto 0 auto;
-    -moz-border-radius:50%;
-    -webkit-border-radius:50%;
-    border-radius:50%;
-    text-align:center;
+    display: inline-block;
+    position: relative;
+    margin: 0 auto 0 auto;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
     width: 85px;
     height: 85px;
     font-size: 40px;
 }
 
 .social-circle li i {
-    margin:0;
-    line-height:85px;
+    margin: 0;
+    line-height: 85px;
     text-align: center;
 }
 
@@ -470,6 +489,19 @@ a.socialIcon:hover, .socialHoverClass {
 }
 
 @media (max-width: 575.98px) {
+    .btn-second-div {
+        margin-top: 25px !important;
+    }
+
+    .btn-div {
+        text-align: center;
+    }
+
+    .triangle-bg, .triangle-bg-2 {
+        border: none;
+
+    }
+
     .social-circle li a {
         width: 50px;
         height: 50px;
@@ -477,11 +509,7 @@ a.socialIcon:hover, .socialHoverClass {
     }
 
     .social-circle li i {
-        line-height:50px;
-    }
-
-    .btn-div{
-        text-align: center;
+        line-height: 50px;
     }
 
     .social-network-div {
@@ -554,14 +582,6 @@ a.socialIcon:hover, .socialHoverClass {
     .h1-first-div-2 {
         text-align: center;
         font-size: 35px !important;
-    }
-
-    .margin1 {
-        margin-left: 6px !important;
-    }
-
-    .margin2 {
-        margin-right: 6px !important;
     }
 
     .p-first-div {
@@ -675,6 +695,14 @@ a.socialIcon:hover, .socialHoverClass {
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
+    .btn-second-div {
+        margin-top: 25px !important;
+    }
+
+    .btn-div {
+        text-align: center;
+    }
+
     .social-network-div {
         text-align: center;
     }
@@ -835,6 +863,14 @@ a.socialIcon:hover, .socialHoverClass {
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
+    .btn-second-div {
+        margin-top: 25px !important;
+    }
+
+    .btn-div {
+        text-align: center;
+    }
+
     .col-first-div {
         margin-bottom: 0;
     }
@@ -989,6 +1025,14 @@ a.socialIcon:hover, .socialHoverClass {
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
+    .btn-second-div {
+        margin-top: 25px !important;
+    }
+
+    .btn-div {
+        text-align: center;
+    }
+
     .col-first-div {
         margin-bottom: 80px;
     }
@@ -1157,3 +1201,7 @@ a.socialIcon:hover, .socialHoverClass {
     font-size: 20px;
 }
 
+
+.third-div .container {
+
+}
