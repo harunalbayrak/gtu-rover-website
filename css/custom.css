@@ -185,6 +185,7 @@ body {
 }
 
 #fifth-div {
+    background-color: #f1f2f4;
     height: 1000px;
     color: #413867;
     margin-bottom: 50px;
@@ -211,6 +212,7 @@ body {
 
 
 #sixth-div {
+    background-color: #f1f2f4;
     color: #413867;
     margin-bottom: 50px;
 }
