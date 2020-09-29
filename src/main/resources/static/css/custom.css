@@ -233,12 +233,13 @@ body {
 
 .container-last-div {
     margin-top: 20px;
-    width: 70% !important;
+    width: 68% !important;
     border-top: 7px solid #9767dd;
     border-left: 4px solid #2c264a;
     border-right: 4px solid #2d274d;
     border-bottom: 2px solid #9867dd;
-    background-color: rgba(70, 63, 107, 0.33)
+    background-color: rgba(70, 63, 107, 0.33);
+    padding: 0 !important;
 }
 
 .first-div-icon {
