@@ -103,17 +103,17 @@ body {
 }
 
 .members-linked:link {
-    color: white !important;
+    color: #413867; !important;
     font-weight: normal;
 }
 
 .members-linked:visited {
-    color: white !important;
+    color: #413867; !important;
     font-weight: normal;
 }
 
 .members-linked:hover {
-    color: lightpink !important;
+    color: #231d36 !important;
     font-weight: bold;
     text-decoration: none;
 }
@@ -180,14 +180,13 @@ body {
 #fourth-div {
     background-color: #f1f2f4;
     height: 1000px;
-    color: #3f2e55;
+    color: #413867;
     margin-bottom: 50px;
 }
 
 #fifth-div {
-    background: url(../images/background/background16.png) center center / cover no-repeat;
     height: 1000px;
-    color: white;
+    color: #413867;
     margin-bottom: 50px;
 }
 
@@ -212,14 +211,13 @@ body {
 
 
 #sixth-div {
-    background: url(../images/background/background10.png) center center / cover no-repeat;
-    height: 400px;
-    color: white;
+    background-color: #413867;
     margin-bottom: 50px;
 }
 
 .p-sixth-div {
     font-size: 25px;
+    text-align: center !important;
 }
 
 .contact-border {
@@ -656,6 +654,10 @@ a.socialIcon:hover, .socialHoverClass {
         height: auto;
     }
 
+    #sixth-div {
+        height: auto;
+    }
+
     #last-div {
         background-position: center center !important;
         height: auto;
@@ -820,6 +822,10 @@ a.socialIcon:hover, .socialHoverClass {
     }
 
     #fifth-div {
+        height: auto;
+    }
+
+    #sixth-div {
         height: auto;
     }
 
