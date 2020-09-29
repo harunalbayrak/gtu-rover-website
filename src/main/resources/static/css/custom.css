@@ -134,6 +134,22 @@ body {
     text-decoration: none;
 }
 
+a:link {
+    text-decoration: none !important;
+}
+
+a:visited {
+    text-decoration: none !important;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+
+a:active {
+    text-decoration: none !important;
+}
+
 #first-div {
     background: url(../images/background/background13.png) center center / cover no-repeat;
     height: 1000px;
@@ -254,6 +270,11 @@ body {
     transition-duration: 200ms;
     transform: scale(1.1);
     /*width: 122px !important;*/
+}
+
+.lib-panel:hover{
+    transition-duration: 300ms;
+    transform: scale(1.02);
 }
 
 .mycol {
