@@ -670,7 +670,7 @@ a.socialIcon:hover, .socialHoverClass {
     }
 
     .first-div-icon {
-        width: 70px;
+        width: 95px !important;
     }
 
     .lib-row {
@@ -690,6 +690,7 @@ a.socialIcon:hover, .socialHoverClass {
     .h3-first-div-2 {
         text-align: center;
         margin: 0;
+        font-size: 20px;
     }
 
     .container-last-div {
