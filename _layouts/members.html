@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
-    <div th:replace="header :: myheader"></div>
+	{% include header.html %}
 </head>
 <body>
-<div th:insert="navbar :: navbar"></div>
+	{% include navbar.html %}
 
 <section id="fifth-div" class="jumbotron jumbotron-fluid align-content-center" style="margin-bottom: 0;">
     <div class="container">
@@ -36,7 +36,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col members-col">
+                <div style="margin-bottom: 0 !important;" class="col members-col">
                     <h4>İsim Soyisim</h4>
                     <img src="/images/circle.png" width="150" height="150"/>
                     <div class="container text-center">
@@ -521,6 +521,7 @@
     </div>
 </section>
 
-<div th:insert="footer :: myfooter"></div>
+	{% include footer.html %}
+
 </body>
 </html>
