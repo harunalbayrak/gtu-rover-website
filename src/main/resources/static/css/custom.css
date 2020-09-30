@@ -72,13 +72,13 @@ body {
     font-family: 'Sifonn Pro';
     font-style: normal;
     font-weight: normal;
-    src: local('Sifonn Pro'), url('/fonts/SIFONN_PRO.woff') format('woff');
+    src: local('Sifonn Pro'), url('../fonts/SIFONN_PRO.woff') format('woff');
 }
 
 @font-face {
     font-family: 'sifonnbasic';
-    src: url('/fonts/sifonn_basic-webfont.woff2') format('woff2'),
-    url('/fonts/sifonn_basic-webfont.woff') format('woff');
+    src: url('../fonts/sifonn_basic-webfont.woff2') format('woff2'),
+    url('../fonts/sifonn_basic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -86,8 +86,8 @@ body {
 
 @font-face {
     font-family: 'League Gothic';
-    src: url('/fonts/LeagueGothic-Regular.woff2') format('woff2'),
-    url('/fonts/LeagueGothic-Regular.woff') format('woff');
+    src: url('../fonts/LeagueGothic-Regular.woff2') format('woff2'),
+    url('../fonts/LeagueGothic-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -95,15 +95,15 @@ body {
 
 @font-face {
     font-family: 'Trajan Pro';
-    src: url('/fonts/TrajanPro-Regular.woff2') format('woff2'),
-    url('/fonts/TrajanPro-Regular.woff') format('woff');
+    src: url('../fonts/TrajanPro-Regular.woff2') format('woff2'),
+    url('../fonts/TrajanPro-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 
 .members-linked:link {
-    color: #413867; !important;
+    color: #493262; !important;
     font-weight: normal;
 }
 
@@ -134,8 +134,24 @@ body {
     text-decoration: none;
 }
 
+a:link {
+    text-decoration: none !important;
+}
+
+a:visited {
+    text-decoration: none !important;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+
+a:active {
+    text-decoration: none !important;
+}
+
 #first-div {
-    background: url(/images/background/background13.png) center center / cover no-repeat;
+    background: url(../images/background/background13.png) center center / cover no-repeat;
     height: 1000px;
     color: white;
     margin-bottom: 50px;
@@ -146,7 +162,7 @@ body {
 }
 
 #second-div {
-    background: url(/images/background/background15.png) center center / cover no-repeat;
+    background: url(../images/background/background15.png) center center / cover no-repeat;
     height: auto;
     color: white;
     margin-bottom: 50px;
@@ -160,7 +176,7 @@ body {
 }
 
 .triangle-bg {
-    background: url(/images/background/triangle.svg), url(/images/background/triangle-thin.svg), url(/images/background/triangle-filled.svg);
+    background: url(../images/background/triangle.svg), url(../images/background/triangle-thin.svg), url(../images/background/triangle-filled.svg);
     background-repeat: no-repeat;
     background-origin: content-box;
     background-position: top right, left, bottom right;
@@ -169,7 +185,7 @@ body {
 }
 
 .triangle-bg-2 {
-    background: url(/images/background/triangle.svg), url(/images/background/triangle-thin.svg), url(/images/background/triangle-filled.svg);
+    background: url(../images/background/triangle.svg), url(../images/background/triangle-thin.svg), url(../images/background/triangle-filled.svg);
     background-repeat: no-repeat;
     background-origin: content-box;
     background-position: 0% 25%, right, bottom right;
@@ -185,13 +201,14 @@ body {
 }
 
 #fifth-div {
+    background-color: #f1f2f4;
     height: 1000px;
     color: #413867;
     margin-bottom: 50px;
 }
 
 #last-div {
-    background-image: url(/images/background/dots.svg), url("/images/dünyapng.png");
+    background-image: url(../images/background/dots.svg), url("../images/dünyapng.png");
     background-size: cover, 80%;
     background-color: #413867;
     background-position: center, bottom;
@@ -211,7 +228,8 @@ body {
 
 
 #sixth-div {
-    color: #2b1251;
+    background-color: #f1f2f4;
+    color: #413867;
     margin-bottom: 50px;
 }
 
@@ -231,12 +249,13 @@ body {
 
 .container-last-div {
     margin-top: 20px;
-    width: 70% !important;
+    width: 68% !important;
     border-top: 7px solid #9767dd;
     border-left: 4px solid #2c264a;
     border-right: 4px solid #2d274d;
     border-bottom: 2px solid #9867dd;
-    background-color: rgba(70, 63, 107, 0.33)
+    background-color: rgba(70, 63, 107, 0.33);
+    padding: 0 !important;
 }
 
 .first-div-icon {
@@ -251,6 +270,11 @@ body {
     transition-duration: 200ms;
     transform: scale(1.1);
     /*width: 122px !important;*/
+}
+
+.lib-panel:hover{
+    transition-duration: 300ms;
+    transform: scale(1.02);
 }
 
 .mycol {
@@ -486,6 +510,54 @@ a.socialIcon:hover, .socialHoverClass {
     transition: all 1.4s;
 }
 
+.elevator {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    overflow: hidden;
+    text-decoration: none;
+    white-space: nowrap;
+    cursor: pointer;
+    visibility: hidden;
+    background: rgba(0, 0, 0, 0.7);
+    background-image: none;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+
+.elevator.elevator-is-visible {
+    z-index: 999;
+
+    /* the button becomes visible */
+    visibility: visible;
+    opacity: 1;
+}
+
+.elevator .fa {
+    position: relative;
+    top: 12.5px;
+    left: 14.5px;
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.elevator:hover {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.elevator:hover .fa {
+    top: 5px;
+    color: white;
+}
+
 @media (max-width: 575.98px) {
     .btn-second-div {
         margin-top: 25px !important;
@@ -654,6 +726,10 @@ a.socialIcon:hover, .socialHoverClass {
         height: auto;
     }
 
+    #sixth-div {
+        height: auto;
+    }
+
     #last-div {
         background-position: center center !important;
         height: auto;
@@ -664,7 +740,7 @@ a.socialIcon:hover, .socialHoverClass {
     }
 
     .first-div-icon {
-        width: 70px;
+        width: 95px !important;
     }
 
     .lib-row {
@@ -684,6 +760,7 @@ a.socialIcon:hover, .socialHoverClass {
     .h3-first-div-2 {
         text-align: center;
         margin: 0;
+        font-size: 20px;
     }
 
     .container-last-div {
