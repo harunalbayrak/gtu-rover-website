@@ -293,8 +293,8 @@ a:active {
     letter-spacing: 2px;
 }
 
-.lightwidget-widget {
-    border-radius: 25px;
+.snapwidget-widget {
+    border-radius: 25px !important;
     margin: 0 auto;
 }
 
@@ -601,7 +601,7 @@ a.socialIcon:hover, .socialHoverClass {
         margin-top: 5px !important;
     }
 
-    .lightwidget-widget {
+    .snapwidget-widget {
         padding-left: 30px;
         padding-right: 30px;
     }
@@ -791,7 +791,7 @@ a.socialIcon:hover, .socialHoverClass {
         margin-top: 25px;
     }
 
-    .lightwidget-widget {
+    .snapwidget-widget {
         padding-left: 45px;
         padding-right: 45px;
     }
@@ -973,8 +973,9 @@ a.socialIcon:hover, .socialHoverClass {
         margin-top: 3px !important;
     }
 
-    .lightwidget-widget {
+    .snapwidget-widget {
         padding-left: 60px;
+        padding-right: 60px;
         padding-right: 60px;
     }
 
