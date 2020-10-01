@@ -17,8 +17,8 @@ index:
 
 cards:
   card_1:
-    title: What is a Rover?
-    text: Rover is the general name of space exploration vehicles designed in different sizes and features to perform the required missions on the surface of planets or celestial bodies. They are designed using robotic arms, motion systems, high resolution cameras and sensors.
+    title: What is Rover?
+    text: Rover, space exploration vehicle, is an autonomous system designed to act in extreme conditions, produced to perform all specific tasks such as collecting information about other planets, examining samples taken from the field to investigate the possibility of life.
   card_2: 
     title: What is ERC?
     text: ERC (European Rover Challenge) is the Mars exploration robot competition held in Poland every year with teams from various countries around the world. The competition aims to provide new gains to the science and space industry. Additionally, it is the largest robotics and space event in Europe.
