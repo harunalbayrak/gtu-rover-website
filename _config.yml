@@ -12,6 +12,10 @@ github_username: github.com/gtu-rover
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-multiple-languages-plugin
+
+languages: ["tr", "en"]
+exclude_from_localizations: ["js", "images", "css","fonts"]
 
 # sponsorlar:
 #   - sponsor_category: Altın
