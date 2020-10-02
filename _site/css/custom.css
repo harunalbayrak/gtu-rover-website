@@ -1302,3 +1302,73 @@ a.socialIcon:hover, .socialHoverClass {
 .third-div .container {
 
 }
+
+/*switch on-off */
+.toggle-label {
+  /*position: relative;*/
+  width: 100px;
+  height: 30px;
+  margin-top: 22px;
+    transform: scale(1.1);
+}
+.toggle-label input[type=checkbox] { 
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+.toggle-label input[type=checkbox]+.back {
+    position: absolute;
+    width: 100%;
+    height: 34px;
+    left: 0;
+    top: 0;
+    border-radius: 50px;
+    border: 3px solid #493262;
+    transition: background 150ms linear;
+}
+.toggle-label input[type=checkbox]:checked+.back {
+    border: 3px solid #493262;
+    cursor: pointer;
+}
+
+.toggle-label input[type=checkbox]+.back .toggle {
+  display: block;
+  position: absolute;
+  content: ' ';
+  background: #bb78cb;
+  width: 50%; 
+  height: 100%;
+  transition: margin 150ms linear;
+  border: 1px solid #808080;
+  border-radius: 50px;
+}
+.toggle-label input[type=checkbox]:checked+.back .toggle {
+  margin-left: 50px;
+}
+.toggle-label .label {
+  display: block;
+  position: absolute;
+  width: 50%;
+  color: #ddd;
+  line-height: 26px;
+  text-align: center;
+  font-size: 16px;
+}
+.toggle-label .label.on { left: 0px; }
+.toggle-label .label.off { right: 0px; }
+
+.toggle-label input[type=checkbox]:checked+.back .label.on {
+  color: #ddd;
+}
+.toggle-label input[type=checkbox]+.back .label.off {
+  color: #ddd;
+    cursor: pointer;
+}
+.toggle-label input[type=checkbox]:checked+.back .label.off {
+  color: #ddd;
+}
+/*switch on-off */
+/*color: #bb78cb;*/
