@@ -5,23 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5d3ac9be-b739-41d8-9c0f-55ed969d68dd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/$CACHE_FILE$" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/intellij-javadocs-4.0.1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/demo2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/favicon/android-chrome-192x192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/favicon/android-chrome-512x512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/favicon/apple-touch-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/favicon/browserconfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/favicon/favicon-16x16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/favicon/favicon-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/favicon/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/favicon/mstile-150x150.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/favicon/safari-pinned-tab.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/favicon/site.webmanifest" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Cache/b7/9606fb3afea5bd1609ed40b622142f1c98125abcfe89a76a661b0e8e343910" beforeDir="false" afterPath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Cache/b7/9606fb3afea5bd1609ed40b622142f1c98125abcfe89a76a661b0e8e343910" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/4f/b9713c4ffc94138ed7c07809bba8910d08e4ee493628e443fc83ad5134c1df" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/ca/b8b278c7e75237af7ad8243b9c3bcb930892a05977cdc36c8f5e36f4599f7b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/fd/aa4200cef2544ec568b25970b3a49cf9b4f3d7015485506ccda914caf9c5b9" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/header.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/404.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/about-us.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/about-us.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/_site/assets/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/_site/assets/main.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/minima-social-icons.svg" beforeDir="false" afterPath="$PROJECT_DIR$/_site/assets/minima-social-icons.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/en/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/en/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/feed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/jekyll/update/2020/09/10/welcome-to-jekyll.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/jekyll/update/2020/09/10/welcome-to-jekyll.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/members.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/members.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +67,11 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Harun Albayrak\IdeaProjects\demo3\images\favicon" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Demo2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="demo2" />
@@ -90,12 +97,28 @@
       <workItem from="1599760391823" duration="3096000" />
       <workItem from="1601545167629" duration="1234000" />
     </task>
+    <task id="LOCAL-00001" summary="Added new paragraph to about page">
+      <created>1601659355247</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1601659355247</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added new paragraph to about page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added new paragraph to about page" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="2440" y="6" key="CommitChangelistDialog2" timestamp="1601659351107">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2440" y="6" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601659351107" />
     <state width="1920" height="326" key="GridCell.Tab.0.bottom" timestamp="1599762472793">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
@@ -136,10 +159,10 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2130" y="285" width="540" height="540" key="StructurePopup/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599760481055" />
-    <state x="2462" y="229" key="Vcs.Push.Dialog.v2" timestamp="1601659329049">
+    <state x="2462" y="229" key="Vcs.Push.Dialog.v2" timestamp="1601660409749">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2462" y="229" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601659329049" />
+    <state x="2462" y="229" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601660409749" />
     <state x="2543" y="227" width="672" height="653" key="search.everywhere.popup" timestamp="1601659302421">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
