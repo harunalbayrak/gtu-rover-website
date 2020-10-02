@@ -4,10 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d3ac9be-b739-41d8-9c0f-55ed969d68dd" name="Default Changelist" comment="Fixed footer link">
+    <list default="true" id="5d3ac9be-b739-41d8-9c0f-55ed969d68dd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/about-us.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/about-us.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/_site/css/custom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/en/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/en/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/feed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/jekyll/update/2020/09/10/welcome-to-jekyll.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/jekyll/update/2020/09/10/welcome-to-jekyll.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/members.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/members.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/custom.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -118,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601661514706</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Fixed dots on the bottom">
+      <created>1601662097037</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1601662097037</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,13 +144,14 @@
     <MESSAGE value="Fixed favicon path" />
     <MESSAGE value="Added .gitignore" />
     <MESSAGE value="Fixed footer link" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed footer link" />
+    <MESSAGE value="Fixed dots on the bottom" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed dots on the bottom" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2440" y="6" key="CommitChangelistDialog2" timestamp="1601661527143">
+    <state x="2440" y="6" key="CommitChangelistDialog2" timestamp="1601662455913">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2440" y="6" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601661527143" />
+    <state x="2440" y="6" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601662455913" />
     <state width="1920" height="326" key="GridCell.Tab.0.bottom" timestamp="1599762472793">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
