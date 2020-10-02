@@ -40,3 +40,15 @@ function myFunction() {
         );
     });
 })(jQuery);
+
+function langButton() {
+  var checkBox = document.getElementById("lang");
+  var pageUrl = window.location.href;
+
+  if (checkBox.checked == true){
+    window.open( pageUrl + "/en","_self");
+    checkBox.checked = true;
+  } else {
+    window.open( pageUrl.slice(0, pageUrl.length-4) ,"_self");
+  }
+}
