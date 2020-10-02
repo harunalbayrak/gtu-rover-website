@@ -16,7 +16,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DarkyenusTimeTracker">
-    <option name="totalTimeSeconds" value="11272" />
+    <option name="totalTimeSeconds" value="11610" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -68,7 +68,7 @@
       <workItem from="1599748037070" duration="7279000" />
       <workItem from="1599760391823" duration="3096000" />
       <workItem from="1601545167629" duration="1234000" />
-      <workItem from="1601659311921" duration="3287000" />
+      <workItem from="1601659311921" duration="3625000" />
     </task>
     <servers />
   </component>
@@ -120,10 +120,14 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2130" y="285" width="540" height="540" key="StructurePopup/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599760481055" />
-    <state x="2543" y="236" width="672" height="678" key="search.everywhere.popup" timestamp="1601659574864">
+    <state x="1996" y="266" width="802" height="511" key="Vcs.Push.Dialog.v2" timestamp="1601662857585">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2543" y="236" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1601659574864" />
+    <state x="1996" y="266" width="802" height="511" key="Vcs.Push.Dialog.v2/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1601662857585" />
+    <state x="2543" y="236" width="672" height="678" key="search.everywhere.popup" timestamp="1601662854038">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2543" y="236" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1601662854038" />
   </component>
   <component name="simpleUML.UMLToolWindowPlugin">
     <General>
