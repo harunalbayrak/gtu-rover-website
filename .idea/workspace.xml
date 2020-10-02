@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d3ac9be-b739-41d8-9c0f-55ed969d68dd" name="Default Changelist" comment="">
+    <list default="true" id="5d3ac9be-b739-41d8-9c0f-55ed969d68dd" name="Default Changelist" comment="Fixed footer link">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/_site/css/custom.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/feed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/custom.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601660994707</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Fixed footer link">
+      <created>1601661514706</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1601661514706</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,13 +129,14 @@
     <MESSAGE value="Added favicon" />
     <MESSAGE value="Fixed favicon path" />
     <MESSAGE value="Added .gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added .gitignore" />
+    <MESSAGE value="Fixed footer link" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed footer link" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2440" y="6" key="CommitChangelistDialog2" timestamp="1601660991979">
+    <state x="2440" y="6" key="CommitChangelistDialog2" timestamp="1601661527143">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2440" y="6" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601660991979" />
+    <state x="2440" y="6" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601661527143" />
     <state width="1920" height="326" key="GridCell.Tab.0.bottom" timestamp="1599762472793">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
@@ -168,10 +177,14 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2130" y="285" width="540" height="540" key="StructurePopup/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599760481055" />
-    <state x="2462" y="229" key="Vcs.Push.Dialog.v2" timestamp="1601661495308">
+    <state x="2462" y="229" key="Vcs.Push.Dialog.v2" timestamp="1601662069174">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2462" y="229" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601661495308" />
+    <state x="2462" y="229" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601662069174" />
+    <state x="2526" y="232" key="run.anything.popup" timestamp="1601661792203">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2526" y="232" key="run.anything.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601661792203" />
     <state x="2543" y="227" width="672" height="653" key="search.everywhere.popup" timestamp="1601659302421">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
