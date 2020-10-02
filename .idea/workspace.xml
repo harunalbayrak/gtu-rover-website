@@ -6,14 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5d3ac9be-b739-41d8-9c0f-55ed969d68dd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/about-us.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/about-us.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/en/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/en/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/feed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/jekyll/update/2020/09/10/welcome-to-jekyll.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/jekyll/update/2020/09/10/welcome-to-jekyll.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/members.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/members.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +52,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Harun Albayrak\IdeaProjects\demo3" />
       <recent name="C:\Users\Harun Albayrak\IdeaProjects\demo3\images\favicon" />
     </key>
   </component>
@@ -101,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601660431005</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Fixed favicon path">
+      <created>1601660823474</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1601660823474</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,13 +111,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added new paragraph to about page" />
     <MESSAGE value="Added favicon" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added favicon" />
+    <MESSAGE value="Fixed favicon path" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed favicon path" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2440" y="6" key="CommitChangelistDialog2" timestamp="1601660428217">
+    <state x="2440" y="6" key="CommitChangelistDialog2" timestamp="1601660820239">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2440" y="6" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601660428217" />
+    <state x="2440" y="6" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601660820239" />
     <state width="1920" height="326" key="GridCell.Tab.0.bottom" timestamp="1599762472793">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
@@ -157,10 +159,10 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2130" y="285" width="540" height="540" key="StructurePopup/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599760481055" />
-    <state x="2462" y="229" key="Vcs.Push.Dialog.v2" timestamp="1601660805133">
+    <state x="2462" y="229" key="Vcs.Push.Dialog.v2" timestamp="1601660950909">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2462" y="229" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601660805133" />
+    <state x="2462" y="229" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601660950909" />
     <state x="2543" y="227" width="672" height="653" key="search.everywhere.popup" timestamp="1601659302421">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
