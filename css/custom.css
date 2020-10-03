@@ -1408,3 +1408,15 @@ a.socialIcon:hover, .socialHoverClass {
 }
 
 /*switch on-off */
+
+
+
+.blocker { 
+    position:absolute; height:100%; width:100%; z-index:1;
+}
+.linkwrap iframe { 
+    z-index: 2; 
+}
+.linkwrap:hover + iframe, iframe:hover {
+    display: block;
+}
