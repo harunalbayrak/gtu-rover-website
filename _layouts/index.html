@@ -1,3 +1,5 @@
+{% assign t = site.data.locales[page.locale] %}
+
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
 
@@ -18,7 +20,7 @@
                      style="margin-top: 65px; "/>
             </div>
             <div class="col col-first-div text-left" style="margin-top:auto;">
-                <h1 class="animate__animated animate__fadeInRight animate__faster h1-first-div"> {{ page.global.gtu }} </h1>
+                <h1 class="animate__animated animate__fadeInRight animate__faster h1-first-div"> {{ t.global.gtu }} </h1>
 
                 <h1 class="animate__animated animate__fadeInRight  animate__fast font-sifonn h1-first-div-2 display-4"
                     style="font-size: 55px">ROVER TEAM</h1>
