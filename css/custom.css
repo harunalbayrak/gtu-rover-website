@@ -102,14 +102,12 @@ body {
 }
 
 .members-linked:link {
-    color: #493262;
-!important;
+    color: #493262 !important;
     font-weight: normal;
 }
 
 .members-linked:visited {
-    color: #413867;
-!important;
+    color: #413867 !important;
     font-weight: normal;
 }
 
@@ -309,7 +307,6 @@ a:active {
     font-weight: 800;
     margin-top: 40px;
     font-size: 24px;
-    text-line-through: double;
 }
 
 .h1-second-div {
@@ -1326,11 +1323,6 @@ a.socialIcon:hover, .socialHoverClass {
 
 #first-div p {
     font-size: 20px;
-}
-
-
-.third-div .container {
-
 }
 
 /*switch on-off */
