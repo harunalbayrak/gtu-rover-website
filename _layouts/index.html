@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
 
-<!-- this is github -->
-
 <head>
 	{% include header.html %}
   <script src="https://cdnjs.cloudflare.com/ajax/libs/just-animate/2.6.2/just-animate.min.js"></script>
@@ -20,11 +18,11 @@
                      style="margin-top: 65px; "/>
             </div>
             <div class="col col-first-div text-left" style="margin-top:auto;">
-                <h1 class="animate__animated animate__fadeInRight animate__faster h1-first-div"> {{ site.data.locales[page.locale].global.gtu }} </h1>
+                <h1 class="animate__animated animate__fadeInRight animate__faster h1-first-div"> {{ page.global.gtu }} </h1>
 
                 <h1 class="animate__animated animate__fadeInRight  animate__fast font-sifonn h1-first-div-2 display-4"
                     style="font-size: 55px">ROVER TEAM</h1>
-                <p class="animate__animated animate__fadeInRight  p-first-div"> {{ site.data.locales[page.locale].index.text }} </p>
+                <p class="animate__animated animate__fadeInRight  p-first-div"> {{ page.index.text }} </p>
 
             </div>
         </div>
@@ -33,42 +31,40 @@
             <div class="row text-center justify-content-center">
                 <div class="mycol col-6 col-md-4">
                     <a href="#"><img class="first-div-icon" src="/images/icon/hexa7-min.png" alt="image"/></a>
-                    <a class="index-first-div-linked" href="#"><h4 class="h3-first-div-2"> {{ site.data.locales[page.locale].index.buttons.members }} </h4></a>
+                    <a class="index-first-div-linked" href="#"><h4 class="h3-first-div-2"> {{ page.index.buttons.members }} </h4></a>
                 </div>
                 <div class="mycol col-6 col-md-4">
                     <a class="index-first-div-linked" href="#fourth-div"><img class="first-div-icon"
                                                                               src="/images/icon/hexa8-min.png"
                                                                               alt="image"/></a>
-                    <a class="index-first-div-linked" href="#fourth-div"><h4 class="h3-first-div-2"> {{ site.data.locales[page.locale].index.buttons.sponsors }} </h4>
+                    <a class="index-first-div-linked" href="#fourth-div"><h4 class="h3-first-div-2"> {{ page.index.buttons.sponsors }} </h4>
                     </a>
                 </div>
                 <div class="mycol col-6 col-md-4">
                     <a class="index-first-div-linked" href="#"><img class="first-div-icon" src="/images/icon/hexa11-min.png" alt="image"/></a>
-                    <a class="index-first-div-linked" href="#"><h4 class="h3-first-div-2"> {{ site.data.locales[page.locale].index.buttons.gallery }}</h4></a>
+                    <a class="index-first-div-linked" href="#"><h4 class="h3-first-div-2"> {{ page.index.buttons.gallery }}</h4></a>
                 </div>
 
                 <div class="mycol col-6 col-md-4">
-                    <a class="index-first-div-linked" href="/about-us.html"><img class="first-div-icon" src="/images/icon/hexa10-min.png" alt="image"/></a>
-                        <a class="index-first-div-linked" href="/about-us.html"><h4 class="h3-first-div-2">{{ site.data.locales[page.locale].index.buttons.about }}</h4></a>
+                    <a class="index-first-div-linked" href="{{ page.about }}"><img class="first-div-icon" src="/images/icon/hexa10-min.png" alt="image"/></a>
+                        <a class="index-first-div-linked" href="{{ page.about }}"><h4 class="h3-first-div-2">{{ page.index.buttons.about }}</h4></a>
                 </div>
                 <div class="mycol col-6 col-md-4">
                     <a class="index-first-div-linked" href="#last-div"><img class="first-div-icon"
                                                                           src="/images/icon/hexa9-min.png" alt="image"/></a>
-                    <a class="index-first-div-linked" href="#last-div"><h4 class="h3-first-div-2">{{ site.data.locales[page.locale].index.buttons.contact }}</h4></a>
+                    <a class="index-first-div-linked" href="#last-div"><h4 class="h3-first-div-2">{{ page.index.buttons.contact }}</h4></a>
                 </div>
                 <div class="mycol col-6 col-md-4">
                     <a class="index-first-div-linked" href="/pdf/sponsorluk_dosyasi.pdf" target="_blank"><img
                             class="first-div-icon" src="/images/icon/hexa12-min.png" alt="image"/></a>
                     <a class="index-first-div-linked" href="/pdf/sponsorluk_dosyasi.pdf" target="_blank"><h4
-                            class="h3-first-div-2">{{ site.data.locales[page.locale].index.buttons.support_us }}</h4></a>
+                            class="h3-first-div-2">{{ page.index.buttons.support_us }}</h4></a>
                 </div>
             </div>
         </div>
     </div>
 
-
 		{% include seperator_up.html %}
-
 
 </section>
 
@@ -84,7 +80,7 @@
                         </div>
                         <div class="col-xs-12 col-md-6">
                             <div class="lib-row lib-header font-sifonn">
-                                    {{ site.data.locales[page.locale].cards.card_1.title }}
+                                    {{ page.cards.card_1.title }}
                                 <p class="p-lib-desc">
                                 <div class="seperator">
                                     <div class="lib-header-seperator"></div>
@@ -92,7 +88,7 @@
                             </div>
                             <div class="lib-row lib-desc">
                                 <p class="p-lib-desc">
-                                    {{ site.data.locales[page.locale].cards.card_1.text }}
+                                    {{ page.cards.card_1.text }}
                             </div>
                         </div>
                     </div>
@@ -105,14 +101,14 @@
                     <div class="row box-shadow ">
                         <div class="col-xs-12 col-md-6">
                             <div class="lib-row lib-header font-sifonn">
-                                    {{ site.data.locales[page.locale].cards.card_2.title }}
+                                    {{ page.cards.card_2.title }}
                                 <div class="seperator">
                                     <div class="lib-header-seperator"></div>
                                 </div>
                             </div>
                             <div class="lib-row lib-desc">
                                 <p class="p-lib-desc">
-                                    {{ site.data.locales[page.locale].cards.card_2.text }}
+                                    {{ page.cards.card_2.text }}
                                 </p>
                             </div>
                         </div>
@@ -133,14 +129,14 @@
                         </div>
                         <div class="col-md-6">
                             <div class="lib-row lib-header font-sifonn">
-                                    {{ site.data.locales[page.locale].cards.card_3.title }}
+                                    {{ page.cards.card_3.title }}
                                 <div class="seperator">
                                     <div class="lib-header-seperator"></div>
                                 </div>
                             </div>
                             <div class="lib-row lib-desc">
                                 <p class="p-lib-desc">
-                                    {{ site.data.locales[page.locale].cards.card_3.text }}
+                                    {{ page.cards.card_3.text }}
                             </div>
                         </div>
                     </div>
@@ -165,7 +161,7 @@
             <iframe src="https://snapwidget.com/embed/877068" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden;  width:100%; "></iframe>
         </div>
         <div class="col-lg-3 text-left carousel-inner2" style="padding-right: 0;">
-            <h1 class="font-sifonn h1-second-div" style="font-size: 35px;">{{ site.data.locales[page.locale].social.follow_us }}</h1>
+            <h1 class="font-sifonn h1-second-div" style="font-size: 35px;">{{ page.social.follow_us }}</h1>
             <!--<p class="p-second-div">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vehicula,
                 mi non fermentum posuere, nunc lorem porta nisl, a tristique dolor purus eu ligula. Mauris vitae ante
                 laoreet,
@@ -183,7 +179,7 @@
                 </ul>
             </div>
             <div class="btn-div">
-                <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSdHibvCpMnjSHTGTqJvkd7LK0GieWppnwIeIB1duxs87x1cWQ/viewform"><button type="button" class="btn-has-icon btn-second-div btn btn-info"><i class="fa-second-div fa fa-user" style="margin-right: 5px"></i>{{ site.data.locales[page.locale].social.join_us }}</button></a>
+                <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSdHibvCpMnjSHTGTqJvkd7LK0GieWppnwIeIB1duxs87x1cWQ/viewform"><button type="button" class="btn-has-icon btn-second-div btn btn-info"><i class="fa-second-div fa fa-user" style="margin-right: 5px"></i>{{ page.social.join_us }}</button></a>
             </div>
         </div>
     </div>
@@ -194,29 +190,29 @@
 
 <section id="fourth-div" class="triangle-bg-2 jumbotron jumbotron-fluid align-content-center" style="margin-bottom: 0;">
     <div class="container">
-        <h1 class="text-center display-4 h1-fourth-div font-sifonn">{{ site.data.locales[page.locale].sponsors.title }}</h1>
+        <h1 class="text-center display-4 h1-fourth-div font-sifonn">{{ page.sponsors.title }}</h1>
         <div class="container text-center" style="margin-top: 40px; margin-bottom: 40px;">
-            <h1 class="text-center h1-fourth-div-2">{{ site.data.locales[page.locale].sponsors.platinum }}</h1>
+            <h1 class="text-center h1-fourth-div-2">{{ page.sponsors.platinum }}</h1>
             <!--<img class="img-fourth-div" src="/images/frame/diamon_frame.png" width="360" height="180"/>-->
         </div>
 
         <div class="container text-center" style="margin-top: 40px; margin-bottom: 40px;">
-            <h1 class="text-center h1-fourth-div-2">{{ site.data.locales[page.locale].sponsors.gold }}</h1>
+            <h1 class="text-center h1-fourth-div-2">{{ page.sponsors.gold }}</h1>
             <!--<img class="img-fourth-div" src="/images/frame/golden_frame.png" width="360" height="180"/>-->
         </div>
 
         <div class="container text-center" style="margin-top: 40px; margin-bottom: 40px;">
-            <h1 class="text-center h1-fourth-div-2">{{ site.data.locales[page.locale].sponsors.silver }}</h1>
+            <h1 class="text-center h1-fourth-div-2">{{ page.sponsors.silver }}</h1>
             <!--<img class="img-fourth-div" src="/images/frame/silver_frame.png" width="360" height="180"/>-->
         </div>
 
         <div class="container text-center" style="margin-top: 40px; margin-bottom: 40px;">
-            <h1 class="text-center h1-fourth-div-2">{{ site.data.locales[page.locale].sponsors.bronze }}</h1>
+            <h1 class="text-center h1-fourth-div-2">{{ page.sponsors.bronze }}</h1>
             <!--<img class="img-fourth-div" src="/images/frame/copper_frame.png" width="360" height="180"/>-->
         </div>
 
         <div class="container text-center" style="margin-top: 40px; margin-bottom: 40px;">
-            <h1 class="text-center h1-fourth-div-2">{{ site.data.locales[page.locale].sponsors.malzeme }}</h1>
+            <h1 class="text-center h1-fourth-div-2">{{ page.sponsors.malzeme }}</h1>
             <!--<img class="img-fourth-div" src="/images/frame/white_frame.png" width="360" height="180"/>-->
         </div>
     </div>
