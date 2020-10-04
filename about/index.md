@@ -27,7 +27,7 @@ teams:
     text: Firmalar ile görüşmeler gerçekleştirerek sponsorluk sağlanmasından, sosyal medya platformlarında takımın daha geniş kitlelere duyurulması için paylaşımlar yapılmasindan ve ekibin tanıtılmasına yönelik tasarımlar yapıp içerik üretilmesinden sorumludur.
   mechanical:
     title: Mekanik Ekibi
-    text1: Roverın yarışma alanından aldığı örnekleri analiz edip, geçmişte olmuş veya gelecekte olabilecek herhangi bir yaşam belirtisi arar. Aynı zamanda yarışma alanının jeolojik yapısını incelemekle sorumludur.
+    text1: Yarışmanın parametrelerine uygun olarak roverın şasi, süspansiyon, tekerlekler gibi kısımlarını içeren yürür sistemini, robotik kolunu ve bilim görevi için toprak örneği alma platformunu tasarlamanın yanısıra üretiminden ve de ekstrem koşullarda görevlerini yerine getirebilirliğini test etmekten sorumludur.
     text2:  Amacımız, URC/ERC yarışmalarının parametrelerine uygun bir robot tasarlayıp üretmenin yanısıra; gelecek nesil multidisipliner, özverili mühendis ve bilim insanları yetişmesinde, eğitim ve araştırma dünyasında bölgede inovasyonu arttırmakta öncü rol oynamaktır.
 
 ---
