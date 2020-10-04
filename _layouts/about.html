@@ -6,24 +6,21 @@
 </head>
 
 <body>
+<div class="elevator-wrapper"></div>
     {% include navbar.html %}
 
     <section id="sixth-div" class="jumbotron jumbotron-fluid align-content-center" style="margin-bottom: 0;">
         <div class="container">
-            <h1 class="text-center animate__animated animate__fadeInRight  animate__fast font-sifonn h1-first-div-2 display-4"
+            <h1 class="animate__animated animate__fadeInRight  animate__fast font-sifonn h1-first-div-2 display-4"
                 style="font-size: 55px; margin-top: 75px; margin-bottom: 30px"> {{ page.who_are_we.title }}</h1>
 
-            <p class="animate__animated animate__fadeInRight p-sixth-div"> {{
-            page.who_are_we.p1 }} </p>
-
-            <p class="animate__animated animate__fadeInRight p-sixth-div">{{
-            page.who_are_we.p2 }} </p>
-
-            <p class="animate__animated animate__fadeInRight p-sixth-div" style="margin-bottom: 50px"> {{
-            page.who_are_we.p3 }} </p>
+            <p class="animate__animated animate__fadeInRight p-sixth-div"> {{ page.who_are_we.p1 }} </p>
+            <p class="animate__animated animate__fadeInRight p-sixth-div">{{ page.who_are_we.p2 }} </p>
+            <p class="animate__animated animate__fadeInRight p-sixth-div" style="margin-bottom: 50px">
+                {{ page.who_are_we.p3 }} </p>
 
             <div class="container-fluid" style="margin-bottom: 50px">
-                <div class="row text-center justify-content-center" style="margin-bottom: 25px">
+                <div class="row " style="margin-bottom: 25px">
                     <div class="col-xs-4 col-lg-2">
                         <img class="first-div-icon" src="/images/icon/Software.png" alt="image" />
                     </div>
@@ -44,7 +41,7 @@
             <hr class="hr-about">
 
             <div class="container-fluid" style="margin-bottom: 50px">
-                <div class="row text-center justify-content-center" style="margin-bottom: 25px">
+                <div class="row " style="margin-bottom: 25px">
                     <div class="col-xs-4 col-lg-2">
                         <img class="first-div-icon" src="/images/icon/Electronic.png" alt="image" />
                     </div>
@@ -60,7 +57,7 @@
             <hr class="hr-about">
 
             <div class="container-fluid" style="margin-bottom: 50px">
-                <div class="row text-center justify-content-center" style="margin-bottom: 25px">
+                <div class="row " style="margin-bottom: 25px">
                     <div class="col-xs-4 col-lg-2">
                         <img class="first-div-icon" src="/images/icon/Science.png" alt="image" />
                     </div>
@@ -76,7 +73,7 @@
             <hr class="hr-about">
 
             <div class="container-fluid" style="margin-bottom: 50px">
-                <div class="row text-center justify-content-center" style="margin-bottom: 25px">
+                <div class="row " style="margin-bottom: 25px">
                     <div class="col-xs-4 col-lg-2">
                         <img class="first-div-icon" src="/images/icon/TTS.png" alt="image" />
                     </div>
@@ -92,7 +89,7 @@
             <hr class="hr-about">
 
             <div class="container-fluid" style="margin-bottom: 50px">
-                <div class="row text-center justify-content-center" style="margin-bottom: 25px">
+                <div class="row " style="margin-bottom: 25px">
                     <div class="col-xs-4 col-lg-2">
                         <img class="first-div-icon" src="/images/icon/Mechanical.png" alt="image" />
                     </div>
@@ -105,7 +102,9 @@
                 <p class="animate__animated animate__fadeInRight p-sixth-div"> {{ page.teams.mechanical.text1 }}</p>
             </div>
 
-            <p class="animate__animated animate__fadeInRight p-sixth-div"> {{ page.teams.mechanical.text2 }} </p>
+            <hr class="hr-about">
+
+                <p class="animate__animated animate__fadeInRight p-sixth-div"> {{ page.teams.mechanical.text2 }} </p>
         </div>
     </section>
 
