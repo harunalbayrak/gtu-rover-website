@@ -579,6 +579,10 @@ a.socialIcon:hover, .socialHoverClass {
 }
 
 @media (max-width: 575.98px) {
+    .navbar {
+        padding-top: 1.3em !important;
+    }
+    
     .en-tr-navbar {
         zoom: 0.7;
         -moz-transform: scale(0.7);
@@ -636,13 +640,13 @@ a.socialIcon:hover, .socialHoverClass {
     }
 
     #navbar-img1 {
-        width: 110px !important;
+        width: 100px !important;
         height: auto !important;
     }
 
     #navbar-img2 {
-        margin-top: -4px;
-        width: 170px !important;
+        margin-top: 8px;
+        width: 160px !important;
         height: auto !important;
     }
 
