@@ -598,7 +598,6 @@ a.socialIcon:hover, .socialHoverClass {
 
     .triangle-bg, .triangle-bg-2 {
         border: none;
-
     }
 
     .social-circle li a {
@@ -645,9 +644,9 @@ a.socialIcon:hover, .socialHoverClass {
     }
 
     #navbar-img2 {
-        margin-top: 8px;
         width: 160px !important;
         height: auto !important;
+        margin-bottom: 6px;
     }
 
     .navbar-brand {
@@ -798,6 +797,24 @@ a.socialIcon:hover, .socialHoverClass {
     }
 
 }
+
+@media (max-width: 350px) {
+    #navbar-img1 {
+        width: 70px !important;
+        height: auto !important;
+    }
+
+    #navbar-img2 {
+        width: 120px !important;
+        height: auto !important;
+        margin-bottom: 6px;
+    }
+
+    .toggle-label{
+        transform: scale(0.75);
+    }
+}
+
 
 @media (min-width: 576px) and (max-width: 767.98px) {
     #navbar-img1 {
