@@ -40,3 +40,21 @@ function myFunction() {
         );
     });
 })(jQuery);
+
+function langButton() {
+  var checkBox = document.getElementById("lang");
+  var pageUrl = window.location.href;
+  var extension = '';
+
+  if (pageUrl[pageUrl.length-1]!='/') {
+    extension = pageUrl.slice(pageUrl.lastIndexOf('/'), pageUrl.length)
+    pageUrl = pageUrl.slice(0, pageUrl.lastIndexOf('/')+1);
+  }
+
+  if (checkBox.checked == true){
+    window.open( pageUrl + "/en" + extension ,"_self");
+    checkBox.checked = true;
+  } else {
+    window.open( pageUrl.slice(0, pageUrl.length-4) + extension ,"_self");
+  }
+}

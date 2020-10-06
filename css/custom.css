@@ -33,7 +33,6 @@ body {
     background-color: #ff7149 !important;
     border-color: transparent !important;
     transition: 0.15s;
-!important;
     -webkit-transition: 0.15s !important;
     -o-transition: 0.15s !important;
     margin-top: 225px !important;
@@ -103,12 +102,12 @@ body {
 }
 
 .members-linked:link {
-    color: #493262; !important;
+    color: #493262 !important;
     font-weight: normal;
 }
 
 .members-linked:visited {
-    color: #413867; !important;
+    color: #413867 !important;
     font-weight: normal;
 }
 
@@ -235,7 +234,7 @@ a:active {
 
 .p-sixth-div {
     font-size: 25px;
-    text-align: center !important;
+    /* text-align: center !important; */
 }
 
 .contact-border {
@@ -272,7 +271,7 @@ a:active {
     /*width: 122px !important;*/
 }
 
-.lib-panel:hover{
+.lib-panel:hover {
     transition-duration: 300ms;
     transform: scale(1.02);
 }
@@ -308,7 +307,6 @@ a:active {
     font-weight: 800;
     margin-top: 40px;
     font-size: 24px;
-    text-line-through: double;
 }
 
 .h1-second-div {
@@ -322,7 +320,7 @@ a:active {
     font-weight: normal;
 }
 
-.row-last-div{
+.row-last-div {
     margin-top: 30px !important;
     margin-bottom: 30px !important;
 }
@@ -563,24 +561,33 @@ a.socialIcon:hover, .socialHoverClass {
     color: white;
 }
 
-.h3-about1{
+.h3-about1 {
     margin-top: 33px;
 }
 
-.h3-about2{
+.h3-about2 {
     margin-top: 20px;
 }
 
-.hr-about{
+.hr-about {
     border-top: 1px dashed #493262;
     margin-bottom: 50px;
 }
 
-.border-img{
+.border-img {
     border-radius: 15px;
 }
 
 @media (max-width: 575.98px) {
+    .navbar {
+        padding-top: 1.3em !important;
+    }
+    
+    .en-tr-navbar {
+        zoom: 0.7;
+        -moz-transform: scale(0.7);
+    }
+    
     .btn-second-div {
         margin-top: 25px !important;
     }
@@ -633,13 +640,14 @@ a.socialIcon:hover, .socialHoverClass {
     }
 
     #navbar-img1 {
-        width: 120px !important;
-        height: 18px !important;
+        width: 100px !important;
+        height: auto !important;
     }
 
     #navbar-img2 {
-        width: 180px !important;
-        height: 27px !important;
+        margin-top: 8px;
+        width: 160px !important;
+        height: auto !important;
     }
 
     .navbar-brand {
@@ -792,6 +800,17 @@ a.socialIcon:hover, .socialHoverClass {
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
+    #navbar-img1 {
+        width: 140px !important;
+        height: auto !important;
+    }
+
+    #navbar-img2 {
+        margin-top: 9px;
+        width: 180px !important;
+        height: auto !important;
+    }
+    
     .btn-second-div {
         margin-top: 25px !important;
     }
@@ -1303,20 +1322,17 @@ a.socialIcon:hover, .socialHoverClass {
     font-size: 20px;
 }
 
-
-.third-div .container {
-
-}
-
 /*switch on-off */
 .toggle-label {
-  /*position: relative;*/
-  width: 100px;
-  height: 30px;
-  margin-top: 22px;
-    transform: scale(1.1);
+    position: relative;
+    width: 100px;
+    height: 30px;
+    margin-top: 13px !important;
+    margin-bottom: 10px !important;
+    margin-right: 15px !important;
 }
-.toggle-label input[type=checkbox] { 
+
+.toggle-label input[type=checkbox] {
     opacity: 0;
     position: absolute;
     width: 100%;
@@ -1324,7 +1340,8 @@ a.socialIcon:hover, .socialHoverClass {
     left: 0;
     top: 0;
 }
-.toggle-label input[type=checkbox]+.back {
+
+.toggle-label input[type=checkbox] + .back {
     position: absolute;
     width: 100%;
     height: 34px;
@@ -1334,46 +1351,69 @@ a.socialIcon:hover, .socialHoverClass {
     border: 3px solid #493262;
     transition: background 150ms linear;
 }
-.toggle-label input[type=checkbox]:checked+.back {
+
+.toggle-label input[type=checkbox]:checked + .back {
     border: 3px solid #493262;
     cursor: pointer;
 }
 
-.toggle-label input[type=checkbox]+.back .toggle {
-  display: block;
-  position: absolute;
-  content: ' ';
-  background: #bb78cb;
-  width: 50%; 
-  height: 100%;
-  transition: margin 150ms linear;
-  border: 1px solid #808080;
-  border-radius: 50px;
+.toggle-label input[type=checkbox] + .back .toggle {
+    display: block;
+    position: absolute;
+    content: ' ';
+    background: #bb78cb;
+    width: 50%;
+    height: 100%;
+    transition: margin 150ms linear;
+    border: 1px solid #808080;
+    border-radius: 50px;
 }
-.toggle-label input[type=checkbox]:checked+.back .toggle {
-  margin-left: 50px;
-}
-.toggle-label .label {
-  display: block;
-  position: absolute;
-  width: 50%;
-  color: #ddd;
-  line-height: 26px;
-  text-align: center;
-  font-size: 16px;
-}
-.toggle-label .label.on { left: 0px; }
-.toggle-label .label.off { right: 0px; }
 
-.toggle-label input[type=checkbox]:checked+.back .label.on {
-  color: #ddd;
+.toggle-label input[type=checkbox]:checked + .back .toggle {
+    margin-left: 50px;
 }
-.toggle-label input[type=checkbox]+.back .label.off {
-  color: #ddd;
+
+.toggle-label .label {
+    display: block;
+    position: absolute;
+    width: 50%;
+    color: #ddd;
+    line-height: 26px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.toggle-label .label.on {
+    left: 0px;
+}
+
+.toggle-label .label.off {
+    right: 0px;
+}
+
+.toggle-label input[type=checkbox]:checked + .back .label.on {
+    color: #ddd;
+}
+
+.toggle-label input[type=checkbox] + .back .label.off {
+    color: #ddd;
     cursor: pointer;
 }
-.toggle-label input[type=checkbox]:checked+.back .label.off {
-  color: #ddd;
+
+.toggle-label input[type=checkbox]:checked + .back .label.off {
+    color: #ddd;
 }
+
 /*switch on-off */
-/*color: #bb78cb;*/
+
+
+
+.blocker { 
+    position:absolute; height:100%; width:100%; z-index:1;
+}
+.linkwrap iframe { 
+    z-index: 2; 
+}
+.linkwrap:hover + iframe, iframe:hover {
+    display: block;
+}
