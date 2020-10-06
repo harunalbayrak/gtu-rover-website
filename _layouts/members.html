@@ -1,527 +1,64 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
-	{% include header.html %}
+    {% include header.html %}
 </head>
 <body>
-	{% include navbar.html %}
+{% include navbar.html %}
 
 <section id="fifth-div" class="jumbotron jumbotron-fluid align-content-center" style="margin-bottom: 0;">
     <div class="container">
-        <h1 class="text-center display-4" style="margin-top: 70px">ÜYELER</h1>
+        <h1 class="text-center display-4 font-sifonn" style="margin-top: 70px">{{ page.members.title }}</h1>
         <div class="container text-center" style="margin-top: 40px; margin-bottom: 40px;">
-            <h1 style="margin-bottom: 20px" class="text-center">Elektronik Ekibi</h1>
-            <div class="row">
-                <div class="col members-col">
-                    <h4>İsim Soyisim</h4>
-                    <img src="/images/circle.png" width="150" height="150"/>
-                    <div class="container text-center">
-                        <div class="row">
-                            <div class="col">
-                                <i class="fa fa-github"></i>
-                                <a class="members-linked" href="#"><span>Github</span></a>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col">
-                                <i class="fa fa-instagram"></i>
-                                <a class="members-linked" href="#"><span>Instagram</span></a>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col">
-                                <i class="fa fa-linkedin"></i>
-                                <a class="members-linked" href="#"><span>LinkedIn</span></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div style="margin-bottom: 0 !important;" class="col members-col">
-                    <h4>İsim Soyisim</h4>
-                    <img src="/images/circle.png" width="150" height="150"/>
-                    <div class="container text-center">
-                        <div class="row">
-                            <div class="col">
-                                <i class="fa fa-github"></i>
-                                <a class="members-linked" href="#"><span>Github</span></a>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col">
-                                <i class="fa fa-instagram"></i>
-                                <a class="members-linked" href="#"><span>Instagram</span></a>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col">
-                                <i class="fa fa-linkedin"></i>
-                                <a class="members-linked" href="#"><span>LinkedIn</span></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col members-col">
-                    <h4>İsim Soyisim</h4>
-                    <img src="/images/circle.png" width="150" height="150"/>
-                    <div class="container text-center">
-                        <div class="row">
-                            <div class="col">
-                                <i class="fa fa-github"></i>
-                                <a class="members-linked" href="#"><span>Github</span></a>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col">
-                                <i class="fa fa-instagram"></i>
-                                <a class="members-linked" href="#"><span>Instagram</span></a>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col">
-                                <i class="fa fa-linkedin"></i>
-                                <a class="members-linked" href="#"><span>LinkedIn</span></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col members-col">
-                    <h4>İsim Soyisim</h4>
-                    <img src="/images/circle.png" width="150" height="150"/>
-                    <div class="container text-center">
-                        <div class="row">
-                            <div class="col">
-                                <i class="fa fa-github"></i>
-                                <a class="members-linked" href="#"><span>Github</span></a>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col">
-                                <i class="fa fa-instagram"></i>
-                                <a class="members-linked" href="#"><span>Instagram</span></a>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col">
-                                <i class="fa fa-linkedin"></i>
-                                <a class="members-linked" href="#"><span>LinkedIn</span></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <h1 style="margin-bottom: 20px" class="text-center font-sifonn">{{ page.teams.electronics.title }}</h1>
+            <div class="text-center">
+                <h3>Alpcan Soydaş</h3>
+                <h3>Toprak Alp</h3>
+                <h3>Asuman Sare Ergut</h3>
+                <h3>Volkan Niler</h3>
+                <h3>Yusuf Günan</h3>
+                <h3>Muhammed Cemal Eryiğit</h3>
             </div>
         </div>
 
         <div class="container text-center" style="margin-top: 40px; margin-bottom: 40px;">
-            <h1 style="margin-bottom: 20px" class="text-center">Yazılım Ekibi</h1>
-            <div class="row">
-                <div class="col members-col">
-                    <h4>İsim Soyisim</h4>
-                    <img src="/images/circle.png" width="150" height="150"/>
-                    <div class="container text-center">
-                        <div class="row">
-                            <div class="col">
-                                <i class="fa fa-github"></i>
-                                <a class="members-linked" href="#"><span>Github</span></a>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col">
-                                <i class="fa fa-instagram"></i>
-                                <a class="members-linked" href="#"><span>Instagram</span></a>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col">
-                                <i class="fa fa-linkedin"></i>
-                                <a class="members-linked" href="#"><span>LinkedIn</span></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col members-col">
-                    <h4>İsim Soyisim</h4>
-                    <img src="/images/circle.png" width="150" height="150"/>
-                    <div class="container text-center">
-                        <div class="row">
-                            <div class="col">
-                                <i class="fa fa-github"></i>
-                                <a class="members-linked" href="#"><span>Github</span></a>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col">
-                                <i class="fa fa-instagram"></i>
-                                <a class="members-linked" href="#"><span>Instagram</span></a>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col">
-                                <i class="fa fa-linkedin"></i>
-                                <a class="members-linked" href="#"><span>LinkedIn</span></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col members-col">
-                    <h4>İsim Soyisim</h4>
-                    <img src="/images/circle.png" width="150" height="150"/>
-                    <div class="container text-center">
-                        <div class="row">
-                            <div class="col">
-                                <i class="fa fa-github"></i>
-                                <a class="members-linked" href="#"><span>Github</span></a>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col">
-                                <i class="fa fa-instagram"></i>
-                                <a class="members-linked" href="#"><span>Instagram</span></a>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col">
-                                <i class="fa fa-linkedin"></i>
-                                <a class="members-linked" href="#"><span>LinkedIn</span></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col members-col">
-                    <h4>İsim Soyisim</h4>
-                    <img src="/images/circle.png" width="150" height="150"/>
-                    <div class="container text-center">
-                        <div class="row">
-                            <div class="col">
-                                <i class="fa fa-github"></i>
-                                <a class="members-linked" href="#"><span>Github</span></a>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col">
-                                <i class="fa fa-instagram"></i>
-                                <a class="members-linked" href="#"><span>Instagram</span></a>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col">
-                                <i class="fa fa-linkedin"></i>
-                                <a class="members-linked" href="#"><span>LinkedIn</span></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <h1 style="margin-bottom: 20px" class="text-center font-sifonn">{{ page.teams.software.title }}</h1>
+            <div class="text-center">
+                <h3>Harun Albayrak</h3>
+                <h3>Fatih Kaan Salgır</h3>
+                <h3>Ömer Sayar</h3>
+                <h3>Baran Şahin</h3>
+                <h3>Oğuzhan Yaşar</h3>
             </div>
         </div>
 
         <div class="container text-center" style="margin-top: 40px; margin-bottom: 40px;">
-            <h1 style="margin-bottom: 20px" class="text-center">Mekanik Ekibi</h1>
-            <div class="row">
-                <div class="col members-col">
-                    <h4>İsim Soyisim</h4>
-                    <img src="/images/circle.png" width="150" height="150"/>
-                    <div class="container text-center">
-                        <div class="row">
-                            <div class="col">
-                                <i class="fa fa-github"></i>
-                                <a class="members-linked" href="#"><span>Github</span></a>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col">
-                                <i class="fa fa-instagram"></i>
-                                <a class="members-linked" href="#"><span>Instagram</span></a>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col">
-                                <i class="fa fa-linkedin"></i>
-                                <a class="members-linked" href="#"><span>LinkedIn</span></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col members-col">
-                    <h4>İsim Soyisim</h4>
-                    <img src="/images/circle.png" width="150" height="150"/>
-                    <div class="container text-center">
-                        <div class="row">
-                            <div class="col">
-                                <i class="fa fa-github"></i>
-                                <a class="members-linked" href="#"><span>Github</span></a>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col">
-                                <i class="fa fa-instagram"></i>
-                                <a class="members-linked" href="#"><span>Instagram</span></a>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col">
-                                <i class="fa fa-linkedin"></i>
-                                <a class="members-linked" href="#"><span>LinkedIn</span></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col members-col">
-                    <h4>İsim Soyisim</h4>
-                    <img src="/images/circle.png" width="150" height="150"/>
-                    <div class="container text-center">
-                        <div class="row">
-                            <div class="col">
-                                <i class="fa fa-github"></i>
-                                <a class="members-linked" href="#"><span>Github</span></a>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col">
-                                <i class="fa fa-instagram"></i>
-                                <a class="members-linked" href="#"><span>Instagram</span></a>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col">
-                                <i class="fa fa-linkedin"></i>
-                                <a class="members-linked" href="#"><span>LinkedIn</span></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col members-col">
-                    <h4>İsim Soyisim</h4>
-                    <img src="/images/circle.png" width="150" height="150"/>
-                    <div class="container text-center">
-                        <div class="row">
-                            <div class="col">
-                                <i class="fa fa-github"></i>
-                                <a class="members-linked" href="#"><span>Github</span></a>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col">
-                                <i class="fa fa-instagram"></i>
-                                <a class="members-linked" href="#"><span>Instagram</span></a>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col">
-                                <i class="fa fa-linkedin"></i>
-                                <a class="members-linked" href="#"><span>LinkedIn</span></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <h1 style="margin-bottom: 20px" class="text-center font-sifonn">{{ page.teams.mechanical.title }}</h1>
+            <div class="text-center">
+                <h3>Muhammed Eymen Sunduvaç</h3>
+                <h3>Yunus Emre Eyüboğlu</h3>
+                <h3>Yunus Koman</h3>
             </div>
         </div>
 
         <div class="container text-center" style="margin-top: 40px; margin-bottom: 40px;">
-            <h1 style="margin-bottom: 20px" class="text-center">Bilim Ekibi</h1>
-            <div class="row">
-                <div class="col members-col">
-                    <h4>İsim Soyisim</h4>
-                    <img src="/images/circle.png" width="150" height="150"/>
-                    <div class="container text-center">
-                        <div class="row">
-                            <div class="col">
-                                <i class="fa fa-github"></i>
-                                <a class="members-linked" href="#"><span>Github</span></a>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col">
-                                <i class="fa fa-instagram"></i>
-                                <a class="members-linked" href="#"><span>Instagram</span></a>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col">
-                                <i class="fa fa-linkedin"></i>
-                                <a class="members-linked" href="#"><span>LinkedIn</span></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col members-col">
-                    <h4>İsim Soyisim</h4>
-                    <img src="/images/circle.png" width="150" height="150"/>
-                    <div class="container text-center">
-                        <div class="row">
-                            <div class="col">
-                                <i class="fa fa-github"></i>
-                                <a class="members-linked" href="#"><span>Github</span></a>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col">
-                                <i class="fa fa-instagram"></i>
-                                <a class="members-linked" href="#"><span>Instagram</span></a>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col">
-                                <i class="fa fa-linkedin"></i>
-                                <a class="members-linked" href="#"><span>LinkedIn</span></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col members-col">
-                    <h4>İsim Soyisim</h4>
-                    <img src="/images/circle.png" width="150" height="150"/>
-                    <div class="container text-center">
-                        <div class="row">
-                            <div class="col">
-                                <i class="fa fa-github"></i>
-                                <a class="members-linked" href="#"><span>Github</span></a>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col">
-                                <i class="fa fa-instagram"></i>
-                                <a class="members-linked" href="#"><span>Instagram</span></a>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col">
-                                <i class="fa fa-linkedin"></i>
-                                <a class="members-linked" href="#"><span>LinkedIn</span></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col members-col">
-                    <h4>İsim Soyisim</h4>
-                    <img src="/images/circle.png" width="150" height="150"/>
-                    <div class="container text-center">
-                        <div class="row">
-                            <div class="col">
-                                <i class="fa fa-github"></i>
-                                <a class="members-linked" href="#"><span>Github</span></a>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col">
-                                <i class="fa fa-instagram"></i>
-                                <a class="members-linked" href="#"><span>Instagram</span></a>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col">
-                                <i class="fa fa-linkedin"></i>
-                                <a class="members-linked" href="#"><span>LinkedIn</span></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <h1 style="margin-bottom: 20px" class="text-center font-sifonn">{{ page.teams.science.title }}</h1>
+            <div class="text-center">
+                <h3>Oğuz Güçlü</h3>
+                <h3>Buse Aktürk</h3>
             </div>
         </div>
 
         <div class="container text-center" style="margin-top: 40px; margin-bottom: 40px;">
-            <h1 style="margin-bottom: 20px" class="text-center">Sponsorluk&Medya Ekibi</h1>
-            <div class="row">
-                <div class="col members-col">
-                    <h4>İsim Soyisim</h4>
-                    <img src="/images/circle.png" width="150" height="150"/>
-                    <div class="container text-center">
-                        <div class="row">
-                            <div class="col">
-                                <i class="fa fa-github"></i>
-                                <a class="members-linked" href="#"><span>Github</span></a>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col">
-                                <i class="fa fa-instagram"></i>
-                                <a class="members-linked" href="#"><span>Instagram</span></a>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col">
-                                <i class="fa fa-linkedin"></i>
-                                <a class="members-linked" href="#"><span>LinkedIn</span></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col members-col">
-                    <h4>İsim Soyisim</h4>
-                    <img src="/images/circle.png" width="150" height="150"/>
-                    <div class="container text-center">
-                        <div class="row">
-                            <div class="col">
-                                <i class="fa fa-github"></i>
-                                <a class="members-linked" href="#"><span>Github</span></a>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col">
-                                <i class="fa fa-instagram"></i>
-                                <a class="members-linked" href="#"><span>Instagram</span></a>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col">
-                                <i class="fa fa-linkedin"></i>
-                                <a class="members-linked" href="#"><span>LinkedIn</span></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col members-col">
-                    <h4>İsim Soyisim</h4>
-                    <img src="/images/circle.png" width="150" height="150"/>
-                    <div class="container text-center">
-                        <div class="row">
-                            <div class="col">
-                                <i class="fa fa-github"></i>
-                                <a class="members-linked" href="#"><span>Github</span></a>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col">
-                                <i class="fa fa-instagram"></i>
-                                <a class="members-linked" href="#"><span>Instagram</span></a>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col">
-                                <i class="fa fa-linkedin"></i>
-                                <a class="members-linked" href="#"><span>LinkedIn</span></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col members-col">
-                    <h4>İsim Soyisim</h4>
-                    <img src="/images/circle.png" width="150" height="150"/>
-                    <div class="container text-center">
-                        <div class="row">
-                            <div class="col">
-                                <i class="fa fa-github"></i>
-                                <a class="members-linked" href="#"><span>Github</span></a>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col">
-                                <i class="fa fa-instagram"></i>
-                                <a class="members-linked" href="#"><span>Instagram</span></a>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col">
-                                <i class="fa fa-linkedin"></i>
-                                <a class="members-linked" href="#"><span>LinkedIn</span></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <h1 style="margin-bottom: 20px" class="text-center font-sifonn">{{ page.teams.sponsorship.title }}</h1>
+            <div class="text-center">
+                <h3>Doğan Turan</h3>
+                <h3>Saliha Kansız</h3>
             </div>
         </div>
     </div>
 </section>
 
-	{% include footer.html %}
-
+{% include footer.html %}
 </body>
 </html>

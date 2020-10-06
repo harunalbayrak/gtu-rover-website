@@ -39,5 +39,5 @@ sponsors:
 
 about: /about/en
 
-members: /members2/en
+members: /members/en
 ---

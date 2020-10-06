@@ -39,5 +39,5 @@ sponsors:
 
 about: /about
 
-members: /members2
+members: /members
 ---
