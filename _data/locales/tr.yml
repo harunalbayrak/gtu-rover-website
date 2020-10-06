@@ -4,6 +4,7 @@ global:
 pages:
   home: Anasayfa
   about: Hakkında
+  members: Üyeler
 
 
 footer:

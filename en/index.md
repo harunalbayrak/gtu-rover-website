@@ -38,4 +38,6 @@ sponsors:
   malzeme: In-Kind Sponsor
 
 about: /about/en
+
+members: /members2/en
 ---

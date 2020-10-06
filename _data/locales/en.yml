@@ -4,6 +4,7 @@ global:
 pages:
   home: Home
   about: About
+  members: Members
 
 
 footer:

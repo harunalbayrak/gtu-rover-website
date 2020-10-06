@@ -38,4 +38,6 @@ sponsors:
   malzeme: Malzeme Sponsoru
 
 about: /about
+
+members: /members2
 ---
