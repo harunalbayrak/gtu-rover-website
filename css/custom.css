@@ -122,14 +122,27 @@ body {
     font-weight: bold;
 }
 
+.index-first-div-linked2:link {
+    color: white !important;
+}
+
 .index-first-div-linked:visited {
     color: white !important;
     font-weight: bold;
 }
 
+.index-first-div-linked2:visited {
+    color: white !important;
+}
+
 .index-first-div-linked:hover {
     color: #ae6ebe !important;
     font-weight: bold;
+    text-decoration: none;
+}
+
+.index-first-div-linked2:hover {
+    color: #ae6ebe !important;
     text-decoration: none;
 }
 
