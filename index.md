@@ -30,7 +30,7 @@ social:
   join_us: Bize Katılın
 
 sponsors:
-  title: Sponsorluklar
+  title: Sponsorluklarımız
   platinum: Platin Sponsor
   gold: Altın Sponsor
   silver: Gümüş Sponsor
