@@ -596,9 +596,19 @@ a.socialIcon:hover, .socialHoverClass {
     margin-top: 15px;
 }
 
+.img-sponsor-div2{
+    width: 12% !important;
+    margin-top: 15px;
+}
+
 @media (max-width: 575.98px) {
     .img-sponsor-div{
         width: 50% !important;
+    }
+
+    .img-sponsor-div2{
+        width: 20% !important;
+        margin-top: 15px;
     }
 
     .navbar {
@@ -843,6 +853,11 @@ a.socialIcon:hover, .socialHoverClass {
         width: 65% !important;
     }
 
+    .img-sponsor-div2{
+        width: 25% !important;
+        margin-top: 15px;
+    }
+
     #navbar-img1 {
         width: 140px !important;
         height: auto !important;
@@ -1028,6 +1043,11 @@ a.socialIcon:hover, .socialHoverClass {
 @media (min-width: 768px) and (max-width: 991.98px) {
     .img-sponsor-div{
         width: 60% !important;
+    }
+
+    .img-sponsor-div2{
+        width: 25% !important;
+        margin-top: 15px;
     }
 
     .btn-second-div {
