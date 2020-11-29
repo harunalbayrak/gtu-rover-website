@@ -8,11 +8,15 @@
 
 <section id="fifth-div" class="jumbotron jumbotron-fluid align-content-center" style="margin-bottom: 0;">
     <div class="container">
-        <h1 class="text-center display-4 font-sifonn" style="margin-top: 70px">{{ page.members.title }}</h1>
+        <h1 class="text-center display-4 font-windlesham" style="margin-top: 70px">{{ page.members.title }}</h1>
+        <div class="text-center " style="margin-top: 40px;">
+            <h1 style="margin-bottom: 20px; font-weight: 900" class="text-center font-windlesham">{{ page.members.danisman }}</h1>
+            <h3> {{ page.members.danismanPre }} {{ site.danisman }}</h3>
+        </div>
 
         {% for team in page.teams %}
         <div class="container text-center" style="margin-top: 40px; margin-bottom: 40px;">
-            <h1 style="margin-bottom: 20px" class="text-center font-sifonn">{{ team[1].title }}</h1>
+            <h1 style="margin-bottom: 20px" class="text-center font-windlesham">{{ team[1].title }}</h1>
             <div class="text-center">
             {% assign teamName = team[0] %}
             {% for member in site.members %}

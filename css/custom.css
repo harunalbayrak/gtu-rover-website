@@ -101,6 +101,14 @@ body {
     font-display: swap;
 }
 
+@font-face {
+font-family: 'WindleshamPro Bold';
+font-style: normal;
+font-weight: normal;
+src: url('../fonts/Windlesham\ Pro\ Bold.woff') format('woff');
+}
+
+
 .members-linked:link {
     color: #493262 !important;
     font-weight: normal;
@@ -300,6 +308,13 @@ a:active {
 
 .font-sifonn {
     font-family: 'sifonnbasic', sans-serif !important;
+    font-weight: lighter !important;
+    font-style: normal !important;
+    letter-spacing: 2px;
+}
+
+.font-windlesham {
+    font-family: 'WindleshamPro Bold', sans-serif !important;
     font-weight: lighter !important;
     font-style: normal !important;
     letter-spacing: 2px;

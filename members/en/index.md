@@ -6,6 +6,8 @@ home: /en
 
 members:
   title: Members
+  danisman: Team Advisor
+  danismanPre: Assistant Professor
 teams:
   electronics:
     title: Electronics Team

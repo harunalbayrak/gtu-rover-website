@@ -7,11 +7,13 @@ home: /
 
 members:
   title: Üyeler
+  danisman: Takım Danışmanı
+  danismanPre: Dr. Öğr. Üyesi
 teams:
   electronics:
     title: Elektronik Ekibi
   software:
-    title: Yazilim Ekibi
+    title: Yazılım Ekibi
   mechanical:
     title: Mekanik Ekibi
   science: 
