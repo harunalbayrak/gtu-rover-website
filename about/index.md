@@ -12,7 +12,7 @@ who_are_we:
   p3: Takımımız Elektronik, Yazılım, Mekanik, Bilim, Sponsorluk & Medya olmak üzere 5 farklı alt takımdan oluşmaktadır. Alt takımların görevleri şu şekildedir;
 teams:
   software:
-    title: Yazilim Ekibi
+    title: Yazılım Ekibi
     text1: Roverın ve robot kolun otonom bir şekilde hareket edebilmesi için sensörlerden ve kameralardan elde edilen verileri kullanarak algoritmalar geliştirir.
     text2: Roverın kontrolü ve roverdan gelen verilerin görselleştirilmesi için arayüz tasarlar.
     text3: Görüntü işleme tekniklerinı kullanarak roverın etrafındaki nesneleri tanımasını sağlar.
