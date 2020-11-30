@@ -27,6 +27,6 @@ teams:
 
   mechanical:
     title: Mechanical Team
-    text1: Team is responsible for designing the propulsion system, robotic arm and soil sampling platform for science missions, including parts of the rover such as chassis, suspension and wheels, as well as for its production and for testing its ability to perform Rover’s missions under extreme conditions in accordance with the parameters of the competition.
-    text2: Our aim is creating a robot suits for the parameters of URC / ERC competitions.  Not only designing and producing but also to play a leading role in training the next generation of multidisciplinary, devoted engineers and scientists, and increasing innovation in the education and research environment in the region.
+    text1: Team is responsible for designing the drive system, robotic arm and soil sampling platform for science missions, including parts of the rover such as chassis, suspension and wheels, as well as for its production and for testing its ability to perform Rover’s missions under extreme conditions in accordance with the parameters of the competition.
+    text2: Our purpose is to design and produce a robot that fits the parameters of the URC/ERC competitions as well as to play a leading role in training the next generation of multidisciplinary, devoted engineers and increasing innovation in the world of education and research in our region.
 ---
