@@ -12,6 +12,45 @@ github_username: github.com/gtu-rover
 theme: minima
 plugins:
   - jekyll-feed
+    
+# team order is important
+danisman: Recep Önler
+members:
+  - electronics:
+    - Alpcan Soydaş
+    - Toprak Alp
+    - Asuman Sare Ergut
+    - Yusuf Günan
+    - Muhammed Cemal Eryiğit
+    - Alperen Ürey
+    - Ogün Uygar Yıldırım
+    - Muhammet Fatih Keskin
+    - Alperen Karataş
+  - software:
+    - Harun Albayrak
+    - Fatih Kaan Salgır
+    - Ömer Faruk Sayar
+    - Baran Şahin
+    - Oğuzhan Yaşar
+    - Halil İbrahim İlhan
+    - Ozan Yıldız
+    - Yunus Emre Geyik
+    - Muhammed Sevinçtekin
+  - mechanical:
+    - Muhammed Eymen Sunduvaç
+    - Yunus Emre Eyüboğlu
+    - Yunus Koman
+    - Bilal Akdağ
+    - Emre Şentürk
+  - science:
+    - Oğuz Güçlü
+    - Buse Aktürk
+    - Reyhan Bolat
+  - sponsorship:
+    - Doğan Turan
+    - Saliha Kansız
+    - Tuğba Ekşi
+    - Ruken Yaşlı
 
 
 # sponsorlar:
