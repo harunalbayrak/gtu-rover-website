@@ -607,13 +607,17 @@ a.socialIcon:hover, .socialHoverClass {
 }
 
 .img-sponsor-div{
-    width: 30% !important;
+    width: 16% !important;
     margin-top: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .img-sponsor-div2{
     width: 16% !important;
     margin-top: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 @media (max-width: 575.98px) {
