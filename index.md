@@ -31,11 +31,13 @@ social:
 
 sponsors:
   title: Sponsorluklarımız
+  name: İsim Sponsorumuz
+  workshop: Atölye İsim Sponsorumuz
   platinum: Platin Sponsor
   gold: Altın Sponsor
   silver: Gümüş Sponsor
   bronze: Bronz Sponsor
-  malzeme: Malzeme Sponsoru
+  malzeme: Destekçilerimiz
 
 about: /about
 

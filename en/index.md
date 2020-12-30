@@ -31,11 +31,13 @@ social:
 
 sponsors:
   title: Sponsors
+  name: Name Sponsor
+  workshop: Workshop Name Sponsor
   platinum: Platinum Sponsor
   gold: Gold Sponsor
   silver: Silver Sponsor
   bronze: Bronze Sponsor
-  malzeme: In-Kind Sponsor
+  malzeme: Our Supporters
 
 about: /about/en
 
