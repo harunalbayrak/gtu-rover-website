@@ -631,9 +631,9 @@ a.socialIcon:hover, .socialHoverClass {
         margin: 15px 20px 20px;
     }
 
-    .navbar {
+    /* .navbar {
         padding-top: 1.3em !important;
-    }
+    } */
     
     .en-tr-navbar {
         zoom: 0.7;
@@ -691,14 +691,13 @@ a.socialIcon:hover, .socialHoverClass {
     }
 
     #navbar-img1 {
-        width: 100px !important;
-        height: auto !important;
+        height: 42px !important;
+        width: auto ;
     }
 
     #navbar-img2 {
         width: 160px !important;
         height: auto !important;
-        margin-bottom: 6px;
     }
 
     .navbar-brand {
@@ -852,14 +851,13 @@ a.socialIcon:hover, .socialHoverClass {
 
 @media (max-width: 350px) {
     #navbar-img1 {
-        width: 70px !important;
-        height: auto !important;
+        width: 42px;
+        height: auto;
     }
 
     #navbar-img2 {
         width: 120px !important;
         height: auto !important;
-        margin-bottom: 6px;
     }
 
     .toggle-label{
@@ -879,13 +877,7 @@ a.socialIcon:hover, .socialHoverClass {
         margin: 15px 20px 20px;
     }
 
-    #navbar-img1 {
-        width: 140px !important;
-        height: auto !important;
-    }
-
     #navbar-img2 {
-        margin-top: 9px;
         width: 180px !important;
         height: auto !important;
     }
@@ -1383,7 +1375,7 @@ a.socialIcon:hover, .socialHoverClass {
     .img-first-div {
         width: 80%;
         height: auto;
-    }
+   }
 }
 
 #carousel1_indicator {
@@ -1505,4 +1497,15 @@ a.socialIcon:hover, .socialHoverClass {
 }
 .linkwrap:hover + iframe, iframe:hover {
     display: block;
+}
+
+#navbar-img1 {
+    margin-left: 10px;
+    height: 72px;
+}
+
+#navbar-img2 {
+    width: 300px ;
+    height: auto;
+    margin-bottom: 5px;
 }
