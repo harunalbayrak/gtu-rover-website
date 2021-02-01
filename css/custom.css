@@ -28,7 +28,7 @@ body {
     padding-bottom: 0;
 }
 
-#last-div {
+#contact {
     padding-top: 0;
 }
 
@@ -217,7 +217,7 @@ a:active {
     border: 100px solid white;
 }
 
-#fourth-div {
+#sponsors {
     background-color: #ffffff;
     height: 1000px;
     color: #413867;
@@ -231,7 +231,7 @@ a:active {
     margin-bottom: 50px;
 }
 
-#last-div {
+#contact {
     background-image: url(../images/background/dots.svg), url("../images/dünyapng.png");
     background-size: cover, 80%;
     background-color: #413867;
@@ -798,7 +798,7 @@ a.socialIcon:hover, .socialHoverClass {
         height: auto;
     }
 
-    #fourth-div {
+    #sponsors {
         height: auto;
     }
 
@@ -810,7 +810,7 @@ a.socialIcon:hover, .socialHoverClass {
         height: auto;
     }
 
-    #last-div {
+    #contact {
         background-position: center 100px !important;
         height: auto;
     }
@@ -1002,7 +1002,7 @@ a.socialIcon:hover, .socialHoverClass {
         height: auto;
     }
 
-    #fourth-div {
+    #sponsors {
         height: auto;
     }
 
@@ -1014,7 +1014,7 @@ a.socialIcon:hover, .socialHoverClass {
         height: auto;
     }
 
-    #last-div {
+    #contact {
         background-position: center 100px !important;
         height: auto;
     }
@@ -1190,7 +1190,7 @@ a.socialIcon:hover, .socialHoverClass {
         height: auto;
     }
 
-    #fourth-div {
+    #sponsors {
         height: auto;
     }
 
@@ -1202,7 +1202,7 @@ a.socialIcon:hover, .socialHoverClass {
         height: auto;
     }
 
-    #last-div {
+    #contact {
         background-position: center 100px !important;
         height: auto;
     }
@@ -1275,7 +1275,7 @@ a.socialIcon:hover, .socialHoverClass {
         height: auto;
     }
 
-    #fourth-div {
+    #sponsors {
         height: auto;
     }
 
@@ -1283,7 +1283,7 @@ a.socialIcon:hover, .socialHoverClass {
         height: auto;
     }
 
-    #last-div {
+    #contact {
         background-position: center 50px !important;
         height: auto;
     }
@@ -1330,7 +1330,7 @@ a.socialIcon:hover, .socialHoverClass {
         height: auto;
     }
 
-    #fourth-div {
+    #sponsors {
         height: auto;
     }
 
@@ -1342,7 +1342,7 @@ a.socialIcon:hover, .socialHoverClass {
         height: auto;
     }
 
-    #last-div {
+    #contact {
         background-position: center center !important;
         height: auto;
     }
