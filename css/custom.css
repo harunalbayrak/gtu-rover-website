@@ -500,8 +500,13 @@ ul.social-network li {
     background-color: #E50000;
 }
 
+.social-network a.icoMedium:hover {
+    background-color: #000;
+}
+
 .social-network a.icoGithub:hover i, .social-network a.icoFacebook:hover i, .social-network a.icoTwitter:hover i,
-.social-network a.icoInstagram:hover i, .social-network a.icoYoutube:hover i, .social-network a.icoLinkedin:hover i {
+.social-network a.icoInstagram:hover i, .social-network a.icoYoutube:hover i, .social-network a.icoLinkedin:hover i,
+.social-network a.icoMedium:hover i {
     color: #fff;
 }
 
