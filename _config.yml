@@ -18,8 +18,6 @@ danisman: Recep Önler
 members:
   - electronics:
     - Alpcan Soydaş
-    - Toprak Alp
-    - Asuman Sare Ergut
     - Yusuf Günan
     - Muhammed Cemal Eryiğit
     - Alperen Ürey
@@ -37,25 +35,27 @@ members:
     - Yunus Emre Geyik
     - Muhammed Sevinçtekin
   - mechanical:
-    - Muhammed Eymen Sunduvaç
     - Yunus Emre Eyüboğlu
     - Yunus Koman
     - Bilal Akdağ
     - Emre Şentürk
     - Batuhan Çelik
     - Yasin Tütüncüler
+    - Muharrem Taşkıran
   - science:
-    - Oğuz Güçlü
     - Buse Aktürk
     - Reyhan Bolat
     - Zenne Merdan Tutar
     - Atahan Evcen
     - Eyüp Tunahan Ünal
+    - Asuman Sare Ergut
+    - Toprak Alp
   - sponsorship:
-    - Doğan Turan
     - Tuğba Ekşi
     - Ruken Yaşlı
     - Emir Topaç
+    - Mehemt Berkay Avcı
+    - İrem Dinç
 
 sponsorluk_dosyasi: GTU Rover Sponsorluk Dosyası.pdf
 
