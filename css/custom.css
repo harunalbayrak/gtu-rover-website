@@ -239,6 +239,10 @@ a:active {
     margin-bottom: 50px;
 }
 
+#rover-div {
+    background-color: #f1f2f4;
+}
+
 #contact {
     background-image: url(../images/background/dots.svg), url("../images/dünyapng.png");
     background-size: cover, 80%;
