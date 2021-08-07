@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    {% include header.html %}
+</head>
+
+<body>
+{% include navbar.html %}
+
+<section style="margin-bottom: 0; padding-top: 100px">
+        <div style="margin: 0 auto;">
+            <h1 style="text-align: center; margin-top: 30px !important; margin-bottom: 30px !important;">Venture</h1>
+            <iframe class="autodesk_3d" src="https://mygtu132.autodesk360.com/shares/public/SH919a0QTf3c32634dcfb888ebe1a742589f?mode=embed" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" frameborder="0"></iframe>
+        </div>  
+
+        <div class="container" style="margin-left: auto !important; margin-right: auto !important">
+            <div class="row" style="margin-top: 50px !important; margin-bottom: 50px !important; margin-right: 50px !important;">
+                <div class="col-sm-3">
+                    <h5 class="h5-rover-page" style="font-weight: bold">Size</h5>
+                    <p class="p-rover-page">Weight: 50 kg</p>
+                    <p class="p-rover-page">Dimensions: 984x1098x342 mm</p>
+
+                    <h5 class="h5-rover-page" style="font-weight: bold">Performance</h5>
+                    <p class="p-rover-page">Estimated maximum obstacle size: 150mm</p>
+                    <p class="p-rover-page">Run time: Estimated 1 hours of nominal driving</p>
+                    <p class="p-rover-page">Connection range: Up to 200m(with live video stream)</p>
+
+                    <h5 class="h5-rover-page" style="font-weight: bold">Wheels</h5>
+                    <p class="p-rover-page">Motors: 4x in-hub brushed DC motor with 55:1 planetary gearbox</p>
+                    <p class="p-rover-page">Wheel diameter: 142mm</p>
+                    <p class="p-rover-page">Tire: Pneumatic rubber tire</p>
+                </div>
+                <div class="col-sm-3">
+                    <h5 class="h5-rover-page" style="font-weight: bold">First Battery Pack</h5>
+                    <p class="p-rover-page">Voltage: 11.1V DC</p>
+                    <p class="p-rover-page">Capacity: 44000 mAh</p>
+                    <p class="p-rover-page">Type: Lithium Polymer</p>
+
+                    <h5 class="h5-rover-page" style="font-weight: bold">Second Battery Pack</h5>
+                    <p class="p-rover-page">Voltage: 22.2V</p>
+                    <p class="p-rover-page">Capacity: 6200 mAh</p>
+                    <p class="p-rover-page">Type: Lithium Polymer</p>
+
+                    <h5 class="h5-rover-page" style="font-weight: bold">Speed</h5>
+                    <p class="p-rover-page">Max. linear speed: 0.9m/s</p>
+                    <p class="p-rover-page">Max. angular speed:</p>
+                </div>
+                <div class="col-sm-3">
+                    <img class="image-rover-page" src="/images/rover/rover_front.png" style="width: 110%;" alt="image"/>
+                </div>
+                <div class="col-sm-3">
+                    <img class="image-rover-page" src="/images/rover/rover_side.png" style="width: 160%;" alt="image"/>
+                </div>
+            </div>
+        </div>
+
+</section>
+
+{% include footer.html %}
+</html>

@@ -9,7 +9,7 @@ index:
   buttons:
     members: Members
     sponsors: Sponsors
-    gallery: Gallery
+    rover: Rover
     about: About Us
     contact: Contact
     support_us: Support Us
@@ -42,4 +42,6 @@ sponsors:
 about: /about/en
 
 members: /members/en
+
+rover: /rover/en
 ---

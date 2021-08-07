@@ -6,6 +6,14 @@ body {
     font-family: 'Titillium Web', sans-serif !important;
 }
 
+.autodesk_3d {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1300px; 
+    height: 600px;
+}
+
 .svg-first-div {
     display: block;
     margin: 0 auto;
@@ -856,6 +864,28 @@ a.socialIcon:hover, .socialHoverClass {
         width: 90% !important;
     }
 
+    .autodesk_3d{
+        width: 100%;
+        height: 100%;
+        margin: 0 auto !important;
+        text-align: center !important;
+    }
+
+    .image-rover-page{
+        width: 70% !important;
+        text-align: center !important;
+        margin: 0 auto !important;
+    }
+
+    .p-rover-page{
+        text-align: center !important;
+        margin: 0 auto !important;
+    }
+
+    .h5-rover-page{
+        text-align: center !important;
+        margin: 0 auto !important;
+    }
 }
 
 @media (max-width: 350px) {
@@ -871,6 +901,19 @@ a.socialIcon:hover, .socialHoverClass {
 
     .toggle-label{
         transform: scale(0.75);
+    }
+
+    .autodesk_3d{
+        width: 100%;
+        height: 100%;
+        margin: 0 auto !important;
+        text-align: center !important;
+    }
+
+    .image-rover-page{
+        width: 70% !important;
+        text-align: center !important;
+        margin: 0 auto !important;
     }
 }
 
@@ -1060,6 +1103,12 @@ a.socialIcon:hover, .socialHoverClass {
         width: 90% !important;
     }
 
+    .autodesk_3d{
+        width: 100%;
+        height: 100%;
+        margin: 0 auto !important;
+        text-align: center !important;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -1233,6 +1282,13 @@ a.socialIcon:hover, .socialHoverClass {
     .lib-desc {
         margin-bottom: 20px !important;
     }
+
+    .autodesk_3d{
+        width: 800px;
+        height: 600px;
+        margin: 0 auto !important;
+        text-align: center !important;
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
@@ -1312,6 +1368,13 @@ a.socialIcon:hover, .socialHoverClass {
     .img-first-div {
         width: 100%;
         height: auto;
+    }
+
+    .autodesk_3d{
+        width: 600px;
+        height: 400px;
+        margin: 0 auto !important;
+        text-align: center !important;
     }
 }
 

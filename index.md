@@ -9,7 +9,7 @@ index:
   buttons:
     members: Üyeler
     sponsors: Sponsorlar
-    gallery: Galeri
+    rover: Rover
     about: Hakkımızda
     contact: İletişim
     support_us: Bize Destek Olun
@@ -42,4 +42,6 @@ sponsors:
 about: /about
 
 members: /members
+
+rover: /rover
 ---
